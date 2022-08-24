@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+    #navbar{
+        width: 100%;
+        border:1px solid red ;
+        height: 100px;
+        margin-top: -5px;
+        
+    }
+    #navbar1{
+        width: 100%;
+        border:1px solid red ;
+        font-family: ProximaNova-Semibold,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+        font-weight: normal;
+        text-align: center;
+        background-color: #303ab2;
+        
+    
+    }
+   #navbar1> h2{
+        display: block;
+      margin-block-start: 0.83em;
+      margin-block-end: 0.83em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-size: 15px;
+      color: white;
+
+    }
+    #banner {
+  display: flex;
+  /* border: 1px solid red;  */
+  justify-content: center;
+  margin-top: 40px;
+  
+  
+
+}
+
+#banner img {
+  width: 1000px;
+  height: 400px;
+  
+
+}
+
+#banner button {
+  position: absolute;
+  top: 50%;
+  background-color: transparent;
+  border: none;
+  margin-left: 230px;
+  margin-right: 230px;
+}
+
+#banner button:nth-child(2) {
+  left: 10px;
+
+
+}
+
+#banner button:nth-child(3) {
+  right: 10px;
+
+}
+#banner button:nth-child(4){
+    right: 10px;
+}
+#banner1{
+  border:1px solid red;
+  width: 982px;
+  height: 134px;
+}
