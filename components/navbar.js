@@ -526,7 +526,8 @@ let navbar =()=>{
             <div class="right_nav_s">
                 <button class="nav_02">
                     <!-- signup-------------- -->
-                    <a href="signup.html"><span class="sect_cen">Sign Up / Sign In</span></a>
+                    <div id="user_of_site"><a href="signup.html"><span class="sect_cen">Sign Up</span></a> |
+                    <a href="Login.html"><span class="sect_cen">Sign In</span></a></div>
                 </button>
             </div>
             <button class="button_nav">
@@ -538,7 +539,9 @@ let navbar =()=>{
                 <div>
                     <button class="nav_07">
                         <span class="sect_cen">
-                            <span class="nav_08"></span>
+                            <span class="nav_08">
+                            <a href="AddToCart.html">0000</a>
+                            </span>
                         </span>
                     </button>
                 </div>

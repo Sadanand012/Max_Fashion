@@ -6,6 +6,13 @@
     align-items: center;
     
   }
+  .heading{
+    height: 30px;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    align-items: center;
+  }
   hr {
     width: 100%;
   }
@@ -25,7 +32,6 @@
   }
   #right{
       width: 36%;
-  
      height: 600px;
      
   }
@@ -48,7 +54,7 @@
       
      
   }
-  img{
+  #imgg{
       width: 100%;
       height: 100%
   }
@@ -105,17 +111,32 @@
       margin-left: 20px; 
       
   }
-  input[type="submit"]{
+  /* input[type="submit"]{
       padding: 20px,20px,20px,20px;
       background-color: aqua;
       background-color: transparent;
       border: 1px solid blue;
+  } */
+  #submit{
+    padding: 20px,20px,20px,20px;
+    color: #303ab2;
+    background-color: transparent;
+    border: 1px solid blue;
+    height: 34px;
+    border-radius: 5px;
   }
-  input{
+  #submit:hover{
+    cursor: pointer;
+  }
+  /* input{
       height: 30px;
       border: 1px solid #b0b0b0;
       border-radius: 3px;
-
+  } */
+  .input_form_0{
+    height: 30px;
+      border: 1px solid #b0b0b0;
+      border-radius: 3px;
   }
   .o1>h4{
       justify-items: center;
@@ -158,17 +179,14 @@
     margin-top: 0px;
   }
   .fixed>div>img{
-    
-  
     height: 100%;
     margin-top: 8px;
- 
-    
   }
   .fixed>div:nth-child(2)>p{
     margin-top:-10px;
   }
   .calculation{
+    display: block;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
     
   }
@@ -196,43 +214,17 @@ padding: 10px;
           }
           #checkout{
             width: 100%;
-            height: 40px;
+            height: 45px;
             border-radius: 3px;
             border: none;
             background-color: #303ab2;
             font-weight: bolder;
             color: white;
           }
-          .download{
-            width: 80%;
 
-            display: flex;
-            margin: auto;
-            
-           
+          #checkout:hover{
+            cursor: pointer;
           }
-          .download>div{
-           width: 50%;
-            
-
-          }
-          .download>div>img{
-           
-           height: 30px;
-           width: 120px;
-          }
-          input[type="text"]{
-            height: 40px;
-            width: 70%;
-
-          }
-      #subs{
-        height: 40px;
-        background-color: black;
-        color: white;
-        border-radius: 3px;
-      }
-  
  
  
   

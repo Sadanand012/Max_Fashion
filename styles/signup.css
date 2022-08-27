@@ -1,50 +1,59 @@
-#main{
+#main {
     width: 100%;
-    height:900px;
-   
+    height: auto;
+
     display: flex;
 }
-#left{
+
+#left {
     width: 40%;
-    
+    overflow: hidden;
     background-image: url("https://media.maxfashion.com/i/max/Onboarding-Men-DT-060722?fmt=auto&w=600");
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
+    background-repeat: no-repeat;
     color: white;
     padding: 40px;
-    
+
 }
-#right{
+
+#right {
     width: 60%;
-   
-    
+
+
 }
-#left>div:nth-child(1){
+
+#left>div:nth-child(1) {
     height: 50px;
     width: 50px;
-    
+
 }
-#left>div:nth-child(2){
+
+#left>div:nth-child(2) {
     font-size: 28px;
     justify-content: center;
-    
+
     margin-top: 100px;
 
 }
-#left>div:nth-child(2)>h3{
+
+#left>div:nth-child(2)>h3 {
     font-size: 24px;
 
 }
-p{
+
+.p {
     margin-top: 190px;
 }
-#left>div>img{
-  height: 40px;
-  margin-left: 5px;
+
+#left>div>img {
+    height: 40px;
+    margin-left: 5px;
 }
-#header{
-    height:200px ;
+
+#header {
+    height: 100px;
     width: 60%;
-    
+
     margin: auto;
     margin-top: 60px;
     text-align: center;
@@ -52,37 +61,41 @@ p{
     letter-spacing: 2px;
 
 }
-#header>div>h4{
-   
+
+#header>div>h4 {
+
     font-size: 18px;
     letter-spacing: 0px;
 
 }
-#bottom{
+
+#bottom {
     height: 590px;
     width: 60%;
-   
+
     margin: auto;
     align-items: center;
 
 }
+
 .loginBtn--facebook {
-  background-color: #1778f2;
-  background-image: linear-gradient(#1778f2, #1778f2);
-  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
-  text-shadow: 0 -1px 0 #1778f2;
-width: 99%;
-height: 50px;
-text-align: center;
-color: white;
-font-size: 15px;
-border: none;
-border-radius: 5px;
+    background-color: #1778f2;
+    background-image: linear-gradient(#1778f2, #1778f2);
+    /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+    text-shadow: 0 -1px 0 #1778f2;
+    width: 99%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
 
 }
+
 .loginBtn--facebook:before {
-  /*border-right: #1778f2 1px solid;*/
-  background: url('https://lmsin.net/cdn-cgi/image/w=1232,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedAD8AF927.lmsin.net/MAX-Friday/MAX2.O/desktop-Women-modularblock8-oneBythree-A-men-11Aug2022.png') 6px 6px no-repeat;
+    /*border-right: #1778f2 1px solid;*/
+    background: url('https://lmsin.net/cdn-cgi/image/w=1232,q=70,fit=cover/https://70415bb9924dca896de0-34a37044c62e41b40b39fcedAD8AF927.lmsin.net/MAX-Friday/MAX2.O/desktop-Women-modularblock8-oneBythree-A-men-11Aug2022.png') 6px 6px no-repeat;
     margin-left: 100px;
     margin-top: 7px;
     height: 30px;
@@ -90,76 +103,100 @@ border-radius: 5px;
 }
 
 .loginBtn--facebook:focus {
-  background-color: #5B7BD5;
-  background-image: linear-gradient(#5B7BD5, #5B7BD5);
-  text-align: center;
+    background-color: #5B7BD5;
+    background-image: linear-gradient(#5B7BD5, #5B7BD5);
+    text-align: center;
 }
-input[type=text],input[ type="password"] {
-  width: 100%; 
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical; 
-  padding: 10px;
-  
+
+.input_text,
+input[ type="password"] {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    padding: 10px;
+
 }
+
 input[type=submit] {
     width: 100%;
-  background-color:black;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  margin-top: 20px;
-  height:  50px;;
- 
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 50px;
+    ;
+
 }
+
 label {
     margin-left: 5px;
     font-size: 18px;
     flex-wrap: wrap;
 }
-h4{
+
+.h4,
+.p2 {
+    margin-top: 5px;
     text-align: center;
 }
-#labl{
+
+.h4>a {
+    text-decoration: none;
+}
+
+#labl {
     display: flex;
     height: 50px;
     width: 100%;
 }
-.fstlst{
+
+.fstlst {
     padding: 10px;
 }
-#one{
+
+#one {
     margin-top: 30px;
     padding: 10px;
 }
-#two{
-    margin-top: -19px;
-    padding: 10px;
-}
-#three{
+
+#two {
     margin-top: -19px;
     padding: 10px;
 }
 
-#four{
+#three {
+    margin-top: -19px;
+    padding: 10px;
+}
+
+#four {
     margin-top: -19px;
     padding: 10px;
     font-size: 20px;
     color: aqua;
 }
-.bnt{
-text-align: center;
-font-size: 22px;
-margin-top: -20px;
+
+.bnt {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
 }
 
 
 input:required {
-  border: 1px solid black;
-  
+    border: 1px solid black;
+
+}
+
+/* footer---------- */
+
+#footer {
+    visibility: visible;
 }

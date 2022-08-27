@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/AddToCart.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div id="heading">
-      <p>Your Shopping Basket</p>
-    </div>
 
-    <hr />
-    <div id="heading">
-      <h5 id="count">1 Product</h5>
-    </div>
-    <div id="divider">
-      <div id="left">
-        <div id="card">
-           <div id="product">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/AddToCart.css" />
+  <link rel="icon" type="image/x-icon" href="https://i1.lmsin.net/website_images/in/favicons/max/favicon-32x32.png">
+  <title>Basket</title>
+</head>
+
+<body>
+  <div id="offer_s"></div>
+  <div id="navbar"></div>
+  <div id="heading" class="heading">
+    <p>Your Shopping Basket</p>
+  </div>
+
+  <hr />
+  <div id="heading" class="heading">
+    <h5 id="count">1 Product</h5>
+  </div>
+  <div id="divider">
+    <div id="left">
+      <div id="card">
+        <!-- <div id="product">
             <div id="im">
-              <img id="imgg" src="" alt="" />
+              <img id="imgg" class="image_append" src="" alt="" />
             </div>
             <div id="detail">
              <h4>MAX Women Rib Knit Drawstring Waist Culottes</h4>
@@ -35,21 +41,19 @@
           </div>
           <div id="btn">
           <button id="Remove">Remove</button>
-          <button id="move">Move to favourites</button>
+          <button id="move">Move to favourites</button> -->
 
-          </div>
-        </div> 
       </div>
-
-      <div id="right">
-        <div class="one">
-          <div class="o1">
-            <h4>Deliver to</h4>
-            <form>
-              <input type="number" placeholder="Pincode" id="pincode" />
-              <input type="submit" value="Submit" id="submit" />
-            </form>
-          </div>
+    </div>
+    <div id="right">
+      <div class="one">
+        <div class="o1">
+          <h4>Deliver to</h4>
+          <form>
+            <input type="number" class="input_form_0" placeholder="Pincode" id="pincode" />
+            <input type="submit" value="Check" id="submit" />
+          </form>
+        </div>
         <div class="fixed">
           <div>
             <img src="https://www.maxfashion.in/static/icons/gift-box.png" alt="">
@@ -74,30 +78,19 @@
 
           <div class="rwwnn">
             <h2>Total</h2>
-            <h2 id="amtt">₹800</h2>
+            <h2 id="amtt">₹0</h2>
           </div>
           <button id="checkout">Checkout Now</button>
-
-        </div>
-
         </div>
       </div>
     </div>
-  <hr>
- <div class="download">
-  <div>
-    <h2>Subscribe to our awesome emails.</h2>
-    <h5>Get our latest offers and news straight in your inbox.</h5>
+  </div>
 
-    <input type="text" placeholder="Please Enter your email" id="gmail">
-    <button id="subs">Subscribe</button>
+
   </div>
-  <div>
-    <h2>Download our apps</h2>
-    <h5>Shop our products and offers on-the-go.</h5>
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-hZaHz2DpeEu5vuz-eiw-J6NjQnY0Hrr3jg&usqp=CAU" alt="">
-  </div>
- </div>
-  </body>
+  <hr>
+  <footer id="footer"></footer>
+</body>
+
 </html>
-<script src="./scripts/add.js"></script>
+<script src="./scripts/add.js" type="module"></script>

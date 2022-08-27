@@ -1,5 +1,7 @@
-
-
+import { navbar } from "../components/navbar.js";
+import { footer_home } from "../components/footer.js";
+document.getElementById("navbar").innerHTML = navbar()
+document.getElementById("footer").innerHTML = footer_home()
 
 
 document.getElementById("login").addEventListener("submit", MyFun);
@@ -22,7 +24,7 @@ document.getElementById("login").addEventListener("submit", MyFun);
 				return v.email == eml && v.password == psw;
 			})[0];
 			localStorage.setItem("name", current_user.name);
-			window.location.href = "main1.html";
+			window.location.href = "homePage.html";
 		} else {
 			alert("Login Failed");
 		}
