@@ -1,5 +1,5 @@
 let navbar =()=>{
-    return `<div class="center_s" tabindex="1">
+    return `<div class="center_s">
     <div class="center_nav">
         <div class="left_navbar">
             <!-- left side of navbar -->
@@ -9,7 +9,7 @@ let navbar =()=>{
             <div class="menu_flex">
                 <div class="menu_s">
                     <!-- Women -->
-                    <a href="#" class="category_s category_font category_sec">
+                    <a href="homePage.html" class="category_s category_font category_sec">
                         <span class="sect_cen">Women</span>
                     </a>
                     <!-- dropdown -->
