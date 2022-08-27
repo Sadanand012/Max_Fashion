@@ -1,0 +1,238 @@
+#heading {
+    height: 30px;
+    width: 90%;
+    margin: auto;
+    font-size: 20px;
+    align-items: center;
+    
+  }
+  hr {
+    width: 100%;
+  }
+  #divider{
+      display: flex;
+      width: 90%;
+    
+      margin: auto;
+      justify-content: space-between;
+      margin-bottom: 200px;
+  }
+  #left{
+      width: 60%;
+      
+    
+   
+  }
+  #right{
+      width: 36%;
+  
+     height: 600px;
+     
+  }
+  #card{
+      width: 100%;
+      box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     
+  }
+  #product{
+      display: flex;
+      padding: 20px;
+
+     
+  }
+  #im{
+      width: 15%;
+      height: 160px;
+      
+     
+      
+     
+  }
+  img{
+      width: 100%;
+      height: 100%
+  }
+  #detail{
+      margin-left: 30px;
+     
+
+  }
+  #detail>h6{
+    
+     margin-top: -10px;
+
+  }
+  #ftr{
+      margin-top: -30px;
+      padding: 4px;
+  }
+ 
+  #div1{
+      margin-top: -20px;
+  }
+  #btn{
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+     
+  }
+  #btn div{
+      height: 40px;
+   
+      width: 50%;
+      text-align: center;
+
+  }
+  a{
+      text-decoration: none;
+  }
+  .one{
+      height:70px ;
+      width: 100%;
+   
+      margin: auto;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      
+  }
+  .o1{
+      display: flex;
+      justify-items: center;
+      padding: 4px;
+    
+  }
+  form{
+      margin-top: 14px;
+      margin-left: 20px; 
+      
+  }
+  input[type="submit"]{
+      padding: 20px,20px,20px,20px;
+      background-color: aqua;
+      background-color: transparent;
+      border: 1px solid blue;
+  }
+  input{
+      height: 30px;
+      border: 1px solid #b0b0b0;
+      border-radius: 3px;
+
+  }
+  .o1>h4{
+      justify-items: center;
+  }
+  #Remove{
+    padding: 10px 90px 10px 90px;
+    border: none;
+    color: blueviolet;
+  }
+  #move{
+    padding: 10px 90px 10px 90px;
+    border: none;
+    color: blueviolet;
+  }
+  #fxx{
+    margin-left: 10px;
+  }
+  .fixed{
+    width: 100%;
+    height: 100px;
+  
+    display: flex;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-top: 20px;
+  }
+
+  .fixed>div:nth-child(1){
+    width: 30%;
+    height: 80%;
+    
+    margin: auto;
+    margin-top: 0px;
+  }
+  .fixed>div:nth-child(2){
+    width: 60%;
+    height: 100%;
+   
+    margin: auto;
+    margin-top: 0px;
+  }
+  .fixed>div>img{
+    
+  
+    height: 100%;
+    margin-top: 8px;
+ 
+    
+  }
+  .fixed>div:nth-child(2)>p{
+    margin-top:-10px;
+  }
+  .calculation{
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    
+  }
+  .rww{
+display: flex;
+justify-content: space-between;
+padding: 10px;
+
+  }
+  .rwwn{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: -40px;
+      }
+      .rwwnn{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        margin-top: -40px;
+          }
+          .hrr{
+            margin-top: -20px;
+            margin-bottom: 20px;
+          }
+          #checkout{
+            width: 100%;
+            height: 40px;
+            border-radius: 3px;
+            border: none;
+            background-color: #303ab2;
+            font-weight: bolder;
+            color: white;
+          }
+          .download{
+            width: 80%;
+
+            display: flex;
+            margin: auto;
+            
+           
+          }
+          .download>div{
+           width: 50%;
+            
+
+          }
+          .download>div>img{
+           
+           height: 30px;
+           width: 120px;
+          }
+          input[type="text"]{
+            height: 40px;
+            width: 70%;
+
+          }
+      #subs{
+        height: 40px;
+        background-color: black;
+        color: white;
+        border-radius: 3px;
+      }
+  
+ 
+ 
+  
