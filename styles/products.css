@@ -116,3 +116,101 @@
   font-size: 14px;
   margin: 5px;
 }
+
+/* disabled box */
+.disableBox {
+  display: none;
+  cursor: pointer;
+  position: absolute;
+  z-index: 22;
+  width: 90%;
+  right: 0.1px;
+  background-color: white;
+  padding: 0px 15px 20px 15px;
+}
+.productDetail {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  gap: 10px;
+  margin: 10px 0px;
+  height: 50px;
+}
+.productColor,
+.ProductSize {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+}
+.colorBtn {
+  border: 0.3px solid rgb(173, 173, 236);
+  height: 100%;
+}
+.colorBtn,
+.insideColorDiv {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 5px;
+}
+.ColorDiv {
+}
+.insideColorDiv {
+  color: grey;
+  margin: 5px 0px;
+}
+.insideColorDiv:hover {
+  background-color: rgba(210, 203, 203, 0.845);
+}
+.sizeDiv > p:hover {
+  background-color: rgba(210, 203, 203, 0.845);
+}
+
+.colorBtn > img:first-child,
+.insideColorDiv > img {
+  width: 30px;
+}
+.colorDiv,
+.sizeDiv {
+  display: none;
+  position: absolute;
+  background-color: white;
+
+  width: 100%;
+
+  bottom: 50px;
+
+  z-index: 1;
+}
+
+.sizeBtnDiv {
+  display: flex;
+  justify-content: space-around;
+  border: 0.3px solid rgb(173, 173, 236);
+  padding: 1em 1em;
+  align-items: center;
+  color: rgba(128, 128, 128, 0.704);
+
+  height: 100%;
+}
+.sizeBtnDiv img,
+.colorBtn > img:last-child {
+  width: 10px;
+
+  /* align-items: flex-end; */
+}
+
+.sizeDiv > p {
+  margin: 10px;
+  padding: 10px 20px;
+}
+.addBasketBtn {
+  position: relative;
+  background-color: rgba(21, 21, 216, 0.94);
+  padding: 13px 2em;
+  text-align: center;
+  font-weight: 600;
+  color: white;
+}
