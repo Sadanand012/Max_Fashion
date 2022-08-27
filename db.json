@@ -1,0 +1,699 @@
+{
+    "womenKurta": [
+        {
+          "id":"1",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188505-Blue-NAVY-1000011188505-22022022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "Buy 3 At 1499",
+          "title": "MAX Women Printed Straight Kurta with Striped Straight Pants",
+          "price": "999",
+          "color":["Blue"],
+          "size":["S","M","L","XLL"]
+        },
+        {
+          "id":"2",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011183745-Multicolour-M-1000011183745-18042022_01-2100.jpg",
+         
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Palazzos",
+          "price": "999",
+          "color":["Multicolour"],
+          "size":["S","M","XL","XLL"]
+        },
+        {
+          "id":"3",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188765-Pink-PEACH-1000011188765-21042022_01-2100.jpg",
+         "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Floral Printed Straight Kurta with Solid Elasticated Palazzo",
+          "price": "999",
+          "color":["Pink"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"4",
+          "image":"https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188492-Grey-DARKGREY-1000011188492-20042022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Elasticated Straight Pants",
+          "price": "999",
+          "color":["Grey"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"5",
+          "image":"https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011183953-Multicolour-M-1000011183953-18042022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Palazzos",
+          "price": "999",
+          "color":["Multicolour"],
+          "size":["S","M","L","XL"]
+        },
+        {
+          "id":"6",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011222342-Pink-PINK-1000011222342-17062022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Palazzo Trousers and Dupatta",
+          "price": "1,299",
+          "color":["Pink"],
+          "size":["S","M","L","XL"]
+        },
+        {
+          "id":"7",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011222459-Purple-PURPLE-1000011222459-20042022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Kurta with Straight Pants",
+          "price": "999",
+          "color":["Purple"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"8",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011183784-Pink-PINK-1000011183784-20042022_01-2100.jpg",
+           "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Palazzos",
+          "price": "1,299",
+          "color":["Pink"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"9",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011183836-Grey-LIGHTGREY-1000011183836-21042022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Palazzos and Dupatta",
+          "price": "1,299",
+          "color":["Grey","Pink"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"10",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011222628-Blue-BLUE-1000011222628-27062022_01-2100.jpg",
+           "online": "ONLINE ONLY",
+          "extraInfo": "DEALS",
+          "title": "MAX Women Printed Straight Kurta With Palazzo",
+          "price": "999",
+          "color":["Blue"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"11",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188700-Black-BLACK-1000011188700-21042022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta With Straight Pant",
+          "price": "999",
+          "color":["Black"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"12",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011222589-Red-RED-1000011222589-27062022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "DEALS",
+          "title": "MAX Women Printed Straight Kurta With Palazzo",
+          "price": "999",
+          "color":["Red"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"13",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011222290-Green-GREEN-1000011222290-06072022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "Buy 3 At 1499",
+          "title": "MAX Women Printed Straight Kurta with Elasticated Palazzos and Dupatta",
+          "price": "1,299",
+          "color":["Green"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"14",
+          "image":"https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011222147-Green-TEAL-1000011222147-17052022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Palazzo and Dupatta",
+          "price": "1,299",
+          "color":["Green"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"15",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188778-Blue-BLUE-1000011188778-21042022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta With Straight Pant",
+          "price": "999",
+          "color":["Blue"],
+          "size":["S","M","XL","XLL"]
+        },
+        {
+          "id":"16",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011183667-Blue-BLUE-1000011183667-07032022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "DEALS",
+          "title": "MAX Women Printed Straight Kurta With Straight Pants",
+          "price": "999",
+          "color":["Blue"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"17",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010644944-Green-Green-1000010644944-8202021_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "Buy 2 Get 1",
+          "title": "MAX Women Printed Straight Kurta with Palazzo Trousers",
+          "price": "1,099",
+          "color":["Multicolour","Blue"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"18",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188531-Pink-PINK-1000011188531-21042022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Solid Palazzos",
+          "price": "999",
+          "color":["Pink"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"19",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188687-Yellow-YELLOW-1000011188687-18042022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Elasticated Straight Pants",
+          "price": "999",
+          "color":["Yellow"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"20",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010653427-Blue-Blue-1000010653427-8272021_01-2100.jpg",    
+          "online": "ONLINE ONLY",
+          "extraInfo": "Buy 2 Get 1",
+          "title": "MAX Women Printed Straight Kurta with Printed Palazzos and Dupatta",
+          "price": "1,699",
+          "color":["Blue"],
+          "size":["S","M","L","XL"]
+        },
+        {
+          "id":"21",
+          "image":"https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010653427-Blue-Blue-1000010653427-8272021_01-2100.jpg",     
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Palazzos",
+          "price": "999",
+          "color":["Blue","Multicolour","Pink"],
+          "size":["S","M","L","XLL"]
+        },
+        {
+          "id":"22",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010653661-Purple-Lilac-1000010653661-8272021_01-2100.jpg",
+           "online": "ONLINE ONLY",
+          "extraInfo": "Buy 2 Get 1",
+          "title": "MAX Women Printed Straight Kurta with Elasticated Palazzos",
+          "price": "1,499",
+          "color":["Purple"],
+          "size":["S","M","XL","XLL"]
+        },
+        {
+          "id":"23",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011183849-Green-GREEN-1000011183849-18042022_01-2100.jpg",
+           "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Palazzos and Dupatta",
+          "price": "1,299",
+          "color":["Green","Pink"],
+          "size":["S","L","XL","XLL"]
+        },
+        {
+          "id":"24",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188466-Multicolour-M-1000011188466-21042022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Solid Straight Pants",
+          "price": "999",
+          "color":["Multicolour"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"25",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011222160-Pink-PINK-1000011222160-20042022_01-2100.jpg",
+           "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Palazzos and Dupatta",
+          "price": "1,299",
+          "color":["Pink","Green"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"26",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011222121-Yellow-MUSTARD-1000011222121-20042022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "New",
+          "title": "MAX Women Printed Straight Kurta with Solid Palazzos and Dupatta",
+          "price": "1,299",
+          "color":["Yellow"],
+          "size":["S","L","XL","XLL"]
+        },
+        {
+          "id":"27",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011222277-Blue-BLUE-1000011222277-06072022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "Buy 3 At 1499",
+          "title": "MAX Women Printed Straight Kurta With Palazzo And Dupatta",
+          "price": "1,299",
+          "color":["Blue"],
+          "size":["S","M","L","XL","XLL"]
+        },
+        {
+          "id":"28",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011183823-Pink-PEACH-1000011183823-22022022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "",
+          "title": "MAX Women Printed Straight Kurta with Palazzos and Dupatta",
+          "price": "1,299",
+          "color":["Pink"],
+          "size":["S","M","L","XLL"]
+
+        },
+        {
+          "id":"29",
+          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188570-Multicolour-M-1000011188570-22022022_01-2100.jpg",
+          "online": "ONLINE ONLY",
+          "extraInfo": "DEALS",
+          "title": "MAX Women Printed Round Neck Straight Kurta With Palazzos",
+          "price": "999",
+          "color":["Multicolour"],
+          "size":["S","M","L","XL","XLL"]
+        }
+       ],
+
+    "womenDresses":  [
+        {
+            "id": 1,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189169-Yellow-MUSTARD-1000011189169-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed A-Line Ethnic Dress",
+            "price": 799,
+            "color":["Yellow"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 2,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188998-Green-OLIVEGREEN-1000011188998-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered Sleeveless Flared Ethnic Dress",
+            "price": 899,
+            "color":["Green"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 3,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189405-Pink-PINK-1000011189405-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed Short Sleeves A-line Dress",
+            "price": 799,
+            "color":["Pink"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 4,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188851-Red-CRIMSON-1000011188851-28042022_01-2100.jpg",
+            "online": "Buy 3 At 1499",
+            "extraInfo": "DEALS",
+            "title": "MAX Women Printed A-Line Dress",
+            "price": 899,
+            "color":["Red"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 5,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189194-Blue-BLUE-1000011189194-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed Half Sleeve A-line Ethnic Dress",
+            "price": 799,
+            "color":["Blue"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 6,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188949-Blue-BLUE-1000011188949-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered A-Line Ethnic Dress",
+            "price": 899,
+            "color":["Blue"],
+            "size":["S","M","XL","XLL"]
+          },
+          {
+            "id": 7,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189244-Green-GREEN-1000011189244-20042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "Plus Available",
+            "title": "MAX Women Printed Bell Sleeves A-line Dress",
+            "price": 799,
+            "color":["Green"],
+            "size":["S","M","L","XL"]
+          },
+          {
+            "id": 8,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000010584327-Brown-Brown-1000010584327-8052021_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "DEALS",
+            "title": "MAX Women Embroidered Round Neck Midi Dress",
+            "price": 799,
+            "color":["Brown"],
+            "size":["S","M","XL","XLL"]
+          },
+          {
+            "id": 9,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189752-Pink-PINK-1000011189752-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Floral Printed Ethnic A-Line Dress",
+            "price": 699,
+            "color":["Pink"],
+            "size":["S","M","XLL"]
+          },
+          {
+            "id": 10,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188949-Green-OLIVEGREEN-1000011188949-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered A-Line Ethnic Dress",
+            "price": 899,
+            "color":["Green","Pink"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 11,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188802-Green-OLIVEGREEN-1000011188802-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered A-Line Ethnic Dress",
+            "price": 899,
+            "color":["Green","Blue"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 12,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189244-Blue-LIGHTBLUE-1000011189244-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "Buy 2 Get 1",
+            "title": "MAX Women Printed Short Sleeves A-line Dress",
+            "price": 799,
+            "color":["Blue"],
+            "size":["S","M","XLL"]
+          },
+          {
+            "id": 13,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188802-Blue-BLUE-1000011188802-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered A-Line Ethnic Dress",
+            "price": 899,
+            "color":["Blue","Yellow","Pink"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 14,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188998-Blue-BLUE-1000011188998-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered Sleeveless A-line Dress",
+            "price": 899,
+            "color":["Blue","Pink"],
+            "size":["M","L","XL","XLL"]
+          },
+          {
+            "id": 15,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189244-Grey-CHARCOAL-1000011189244-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed A-Line Dress",
+            "price": 799,
+            "color":["Gray"],
+            "size":["S","M","L","XLL"]
+          },
+          {
+            "id": 16,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188949-Yellow-MUSTARD-1000011188949-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered A-Line Ethnic Dress",
+            "price": 899,
+            "color":["Yellow","Pink"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 17,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189281-Blue-NAVY-1000011189281-07032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "DEALS",
+            "title": "MAX Women Checked Sleeveless A-line Dress",
+            "price": 699,
+            "color":["Blue"],
+            "size":["S","M","L","XLL"]
+          },
+          {
+            "id": 18,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189306-Green-OLIVEGREEN-1000011189306-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed Sleeveless A-Line Dress",
+            "price": 799,
+            "color":["Green"],
+            "size":["S","M","L","XL"]
+          },
+          {
+            "id": 19,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189343-Green-DARKGREEN-1000011189343-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Floral Print Sleeveless Shirt Dress",
+            "price": 799,
+            "color":["Green"],
+            "size":["S","XL","XLL"]
+          },
+          {
+            "id": 20,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189405-Blue-LIGHTBLUE-1000011189405-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed Short Sleeves A-line Dress",
+            "price": 799,
+            "color":["Blue"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 21,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189169-Red-RED-1000011189169-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed A-Line Ethnic Dress",
+            "price": 799,
+            "color":["Red"],
+            "size":["S","XLL"]
+          },
+          {
+            "id": 22,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189405-Blue-BLUE-1000011189405-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed Short Sleeves A-line Dress",
+            "price": 799,
+            "color":["Blue"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 23,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188949-Pink-ROSEPINK-1000011188949-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered A-Line Ethnic Dress",
+            "price": 899,
+            "color":["Pink"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 24,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188998-Pink-ROSEPINK-1000011188998-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered Sleeveless A-line Dress",
+            "price": 899,
+            "color":["Pink","Blue","Beige"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 25,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189467-Blue-BLUE-1000011189467-07042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed A-Line Dress",
+            "price": 699,
+            "color":["Blue"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 26,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189566-Blue-LIGHTBLUE-1000011189566-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed V-neck A-Line Dress",
+            "price": 699,
+            "color":["Blue"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 27,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189306-Blue-LIGHTBLUE-1000011189306-20042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "DEALS",
+            "title": "MAX Women Printed Sleeveless A-line Dress",
+            "price": 799,
+            "color":["Blue"],
+            "size":["S","M"]
+          },
+          {
+            "id": 28,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188802-Yellow-MUSTARD-1000011188802-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered A-Line Ethnic Dress",
+            "price": 899,
+            "color":["Yellow"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 29,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189492-Beige-IVORY-1000011189492-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed A-Line Dress",
+            "price": 699,
+            "color":["Beige"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 30,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189492-Blue-BLUE-1000011189492-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "Plus Available",
+            "title": "MAX Women Printed Sleeveless Ethnic Shift Dress",
+            "price": 699,
+            "color":["Blue"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 31,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188802-Pink-ROSEPINK-1000011188802-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered Ethnic A-Line Dress",
+            "price": 899,
+            "color":["Pink"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 32,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188998-Beige-NATURAL-1000011188998-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered Sleeveless A-line Dress",
+            "price": 899,
+            "color":["Beige","Blue"],
+            "size":["S","M","L"]
+          },
+          {
+            "id": 33,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189752-Green-GREEN-1000011189752-21042022_01-2100.jpg",
+            "online": "Buy 3 At 1499",
+            "extraInfo": "Buy 2 Get 1",
+            "title": "MAX Women Printed A-Line Dress",
+            "price": 699,
+            "color":["Green"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 34,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188851-Blue-BLUE-1000011188851-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered Sleeveless A-Line Dress",
+            "price": 899,
+            "color":["Blue"],
+            "size":["S","M","XLL"]
+          },
+          {
+            "id": 35,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188900-Pink-ROSEPINK-1000011188900-07032022-2_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered A-Line Dress",
+            "price": 899,
+            "color":["Pink"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 36,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188900-Yellow-MUSTARD-1000011188900-07032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered Shoulder Strap A-line Dress",
+            "price": 899,
+            "color":["Yellow"],
+            "size":["S","XLL"]
+          },
+          {
+            "id": 37,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189442-Blue-BLUE-1000011189442-21042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed Tie-Up Waist A-line Dress",
+            "price": 699,
+            "color":["Blue"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 38,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189628-Multicolour-M-1000011189628-31032022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "Plus Available",
+            "title": "MAX Women Tropical Print Sleeveless A-Line Dress",
+            "price": 699,
+            "color":["Multicolour"],
+            "size":["S","M","L","XL","XLL"]
+          },
+          {
+            "id": 39,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189059-Blue-LIGHTBLUE-1000011189059-20042022_01-2100.jpg",
+            "online": "Buy 3 At 1499",
+            "extraInfo": "New",
+            "title": "MAX Women Embroidered Sleeveless Midi Dress",
+            "price": 899,
+            "color":["Blue"],
+            "size":["XL","XLL"]
+          },
+          {
+            "id": 40,
+            "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011189343-Grey-GREY-1000011189343-20042022_01-2100.jpg",
+            "online": "ONLINE ONLY",
+            "extraInfo": "New",
+            "title": "MAX Women Printed Sleeveless Shirt Dress",
+            "price": 799,
+            "color":["Gray"],
+            "size":["S","M","L","XL","XLL"]
+          }
+         ]
+}
