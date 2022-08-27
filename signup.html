@@ -5,10 +5,12 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/navbar.css">
         <link rel="stylesheet" href="./styles/signup.css">
-        <title>Document</title>
+        <title>Signup</title>
     </head>
     <body>
+        <div id="navbar"></div>
         <div id="main">
             <div id="left">
                 <div>
@@ -18,14 +20,14 @@
                 <h1></h1>
                 <h3></h3>
                </div> 
-                   <p></p>
+                   <p class="p"></p>
                
             </div>
             <div id="right">
                 <div id="header">
                     <div>
                         <h1>Join Max</h1>
-                        <h4>
+                        <h4 class="h4">
                             Already have an account? 
                             <a rel="nofollow" href="Login.html">Login</a>
                         </h4>
@@ -42,20 +44,20 @@
                         <div class="fstlst">
   
                             <label for="fname">First name</label>
-                            <input type="text" id="fname" name="firstname"  >
+                            <input type="text" class="input_text" id="fname" name="firstname"  >
                         </div>
                         <div class="fstlst">
                             <label for="lastname">Last name</label>
-                            <input type="text" id="lname" name="firstname" >
+                            <input type="text" class="input_text" id="lname" name="firstname" >
                         </div>
                         </div>
                         <div id="one">
                             <label for="lastname">Email</label>
-                            <input type="text" id="email" name="email" >
+                            <input type="text" class="input_text" id="email" name="email" >
                         </div>
                         <div id="two">
                             <label for="Username">Username</label>
-                            <input type="text" id="userName" name="userName"  >
+                            <input type="text" class="input_text" id="userName" name="userName"  >
                         </div>
                         <div id="three">
                             <label for="password">Password</label>
@@ -72,9 +74,8 @@
                </div>
             </div>
         </div>
+        <footer id="footer"></footer>
     </body>
     </html>
 
-<script src="./scripts/signup.js">
-   
-</script>
+<script src="./scripts/signup.js" type="module"></script>

@@ -1,14 +1,15 @@
 #main{
     width: 100%;
-    height:900px;
+    height:auto;
    
     display: flex;
 }
 #left{
     width: 40%;
-    
+    overflow: hidden;
     background-image: url("https://media.maxfashion.com/i/max/Onboarding-Men-DT-060722?fmt=auto&w=600");
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
+    background-repeat: no-repeat;
     color: white;
     padding: 40px;
     
@@ -34,7 +35,7 @@
     font-size: 24px;
 
 }
-p{
+.p{
     margin-top: 190px;
 }
 #left>div>img{
@@ -42,7 +43,7 @@ p{
   margin-left: 5px;
 }
 #header{
-    height:200px ;
+    height:100px ;
     width: 60%;
     
     margin: auto;
@@ -94,7 +95,7 @@ border-radius: 5px;
   background-image: linear-gradient(#5B7BD5, #5B7BD5);
   text-align: center;
 }
-input[type=text],input[ type="password"] {
+.input_text,input[ type="password"] {
   width: 100%; 
   border: 1px solid #ccc; 
   border-radius: 4px; 
@@ -122,8 +123,12 @@ label {
     font-size: 18px;
     flex-wrap: wrap;
 }
-h4{
+.h4,.p2{
+    margin-top: 5px;
     text-align: center;
+}
+.h4>a{
+    text-decoration: none;
 }
 #labl{
     display: flex;
@@ -155,11 +160,16 @@ h4{
 .bnt{
 text-align: center;
 font-size: 22px;
-margin-top: -20px;
+margin-top: 20px;
 }
 
 
 input:required {
   border: 1px solid black;
   
+}
+/* footer---------- */
+
+#footer{
+    visibility: visible;
 }

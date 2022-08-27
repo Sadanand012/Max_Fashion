@@ -4,11 +4,12 @@ body {
 
 
 #main{
-    height: 650px;
+    height: 550px;
     width: 33%;
     /*  border: 1px solid red;*/
     margin: auto;
     margin-top: 30px;
+    margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
     background-color: #fff;
@@ -17,26 +18,40 @@ body {
         rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-div:nth-child(1) {
+/* div:nth-child(1) {
     height: 80px;
     width: 80px;
-    /*  border: 1px solid red;*/
+    border: 1px solid red;
+    margin: auto;
+    margin-top: 30px;
+} */
+.login_01{
+    height: 80px;
+    /* border: 1px solid red; */
+    width: 80px;
     margin: auto;
     margin-top: 30px;
 }
-
-div:nth-child(1) > img {
+/* div:nth-child(1) > img {
     height: 100%;
     width: 100%;
     margin: auto;
+} */
+.login_01>img{
+    height: 80px;
+    width: 80px;
+    margin: auto;
 }
-
-h2 {
+/* h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+} */
+.login_02H2{
     text-align: center;
     font-size: 28px;
     font-weight: bold;
 }
-
 .p1 {
     text-align: center;
     font-size: 17px;

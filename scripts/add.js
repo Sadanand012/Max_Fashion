@@ -1,3 +1,11 @@
+import { navbar } from "../components/navbar.js";
+import { footer_home } from "../components/footer.js";
+import {offer_navbar} from "../components/offern_navbar.js";
+document.getElementById("offer_s").innerHTML = offer_navbar()
+document.getElementById("navbar").innerHTML = navbar()
+document.getElementById("footer").innerHTML = footer_home()
+
+
 let data1 = [
   {
     Image:
@@ -12,14 +20,6 @@ let data1 = [
       "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011359693-Red-RED-1000011359693-31072022_01-2100.jpg",
     heading: "Tshirt",
     amount: "299",
-    rang: "blue",
-    lngth: "xl",
-  },
-  {
-    Image:
-      "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011359693-Red-RED-1000011359693-31072022_01-2100.jpg",
-    heading: "Tshirt",
-    amount: "99",
     rang: "blue",
     lngth: "xl",
   },
@@ -44,6 +44,7 @@ let Append = (data) => {
     let imgg = document.createElement("img");
 
     imgg.id = "imgg";
+
     imgg.src = e.Image;
 
     im.append(imgg);
@@ -130,3 +131,7 @@ alert("Sorry")
 }
 });
 
+let clickonnew = document.getElementById("checkout");
+clickonnew.addEventListener("click",function(){
+  window.location.href = "checkout.html";
+})

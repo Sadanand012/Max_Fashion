@@ -1,49 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/login.css" />
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <title>Login Page</title>
-  </head>
 
-  <body>
-   <div >
-    <div id="navbar"></div>
-  
-    <div id="main">
-      <div>
-        <img
-          src="https://www.landmarkgroup.com/qa/sites/default/files/Brand-logo/New%20Max%20Logo-%20Eng%20With%20Outline_1.png"
-          alt="wait"
-        />
-      </div>
-      <h2>Login</h2>
-      <p class="p1">Welcome back.</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/login.css">
+  <title>Login Page</title>
+</head>
 
-      <div class="container">
-        <form action="#" id="login">
-          <label for="fname">Email</label>
-          <input type="text" id="email" name="firstname" required />
+<body>
+  <div id="navbar"></div>
 
-          <label for="lname">Password</label>
-          <a id="forgot" href="">Forgot your password?</a>
-          <input type="password" id="password" name="lastname" required />
-          <input type="submit" value="Login" />
-        </form>
-      </div>
+  <div id="main">
+    <div class="login_01">
+      <img
+        src="https://www.landmarkgroup.com/qa/sites/default/files/Brand-logo/New%20Max%20Logo-%20Eng%20With%20Outline_1.png"
+        alt="wait" />
     </div>
-    <footer id="footer"></footer>
-  </body>
+    <h2 class="login_02H2">Login</h2>
+    <p class="p1">Welcome back.</p>
+
+    <div class="container ">
+      <form action="#" id="login">
+        <label for="fname">Email</label>
+        <input type="text" id="email" name="firstname" required />
+
+        <label for="lname">Password</label>
+        <a id="forgot" href="">Forgot your password?</a>
+        <input type="password" id="password" name="lastname" required />
+        <input type="submit" value="Login" />
+      </form>
+    </div>
+  </div>
+  <footer id="footer"></footer>
+</body>
+
 </html>
-<script src="./scripts/login.js" ></script>
-<script type="module">
-
-import { navbar } from "../components/navbar.js";
-import {footer_home} from "../components/footer.js";
-document.getElementById("navbar").innerHTML = navbar()
-document.getElementById("footer").innerHTML = footer_home()
-</script>
-
+<script src="./scripts/login.js" type="module"></script>

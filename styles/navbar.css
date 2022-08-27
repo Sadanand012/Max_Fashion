@@ -329,11 +329,11 @@ body{
     align-items: inherit;
     justify-content: inherit;
 }
-.nav_02>a{
+.nav_02>div>a{
     text-decoration: none;
     color: #000000;
 }
-.nav_02>a:hover{
+.nav_02>div>a:hover{
     color: #303ab2;
 }
 .search_s {
@@ -501,7 +501,12 @@ body{
     height: 24px;
     background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -640px -155px no-repeat;
 }
-
+.nav_08>a{
+    width: 24px;
+    height: 24px;
+    color: transparent;
+    text-decoration: none;
+}
 @media (min-width:320px) and (max-width:720px){
     .center_s {
         width: 100%;

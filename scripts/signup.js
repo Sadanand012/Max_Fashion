@@ -1,3 +1,9 @@
+import { navbar } from "../components/navbar.js";
+import { footer_home } from "../components/footer.js";
+document.getElementById("navbar").innerHTML = navbar()
+document.getElementById("footer").innerHTML = footer_home()
+
+
 document.getElementById("myForm").addEventListener("submit", myFun);
 	 data = JSON.parse(localStorage.getItem("Signup")) || [];
 	function myFun(event) {
