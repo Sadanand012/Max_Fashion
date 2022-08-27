@@ -1,28 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./styles/navbar.css">
-    <link rel="stylesheet" href="./styles/AddToCart.css" />
-    <title>Basket</title>
-  </head>
-  <body>
-    <div id="offer_s"></div>
-    <div id="navbar"></div>
-    <div id="heading" class="heading">
-      <p>Your Shopping Basket</p>
-    </div>
 
-    <hr />
-    <div id="heading" class="heading">
-      <h5 id="count">1 Product</h5>
-    </div>
-    <div id="divider">
-      <div id="left">
-        <div id="card">
-           <!-- <div id="product">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./styles/navbar.css">
+  <link rel="stylesheet" href="./styles/AddToCart.css" />
+  <link rel="icon" type="image/x-icon" href="https://i1.lmsin.net/website_images/in/favicons/max/favicon-32x32.png">
+  <title>Basket</title>
+</head>
+
+<body>
+  <div id="offer_s"></div>
+  <div id="navbar"></div>
+  <div id="heading" class="heading">
+    <p>Your Shopping Basket</p>
+  </div>
+
+  <hr />
+  <div id="heading" class="heading">
+    <h5 id="count">1 Product</h5>
+  </div>
+  <div id="divider">
+    <div id="left">
+      <div id="card">
+        <!-- <div id="product">
             <div id="im">
               <img id="imgg" class="image_append" src="" alt="" />
             </div>
@@ -40,55 +43,54 @@
           <button id="Remove">Remove</button>
           <button id="move">Move to favourites</button> -->
 
+      </div>
+    </div>
+    <div id="right">
+      <div class="one">
+        <div class="o1">
+          <h4>Deliver to</h4>
+          <form>
+            <input type="number" class="input_form_0" placeholder="Pincode" id="pincode" />
+            <input type="submit" value="Check" id="submit" />
+          </form>
+        </div>
+        <div class="fixed">
+          <div>
+            <img src="https://www.maxfashion.in/static/icons/gift-box.png" alt="">
+          </div>
+          <div>
+            <h4>Offers for you !</h4>
+            <p>Choose and Apply voucher in 2 simple steps</p>
           </div>
         </div>
-        <div id="right">
-          <div class="one">
-            <div class="o1">
-              <h4>Deliver to</h4>
-              <form>
-                <input type="number" class="input_form_0" placeholder="Pincode" id="pincode" />
-                <input type="submit" value="Check" id="submit" />
-              </form>
-            </div>
-          <div class="fixed">
-            <div>
-              <img src="https://www.maxfashion.in/static/icons/gift-box.png" alt="">
-            </div>
-            <div>
-              <h4>Offers for you !</h4>
-              <p>Choose and Apply voucher in 2 simple steps</p>
-            </div>
-          </div>
-  
-          <div class="calculation">
-            <div class="rww">
-              <p>Total MRP</p>
-              <h3 id="ctt">₹200</h3>
-            </div>
-  
-            <div class="rwwn">
-              <p>Shopping Charge</p>
-              <h3>Free</h3>
-            </div>
-            <hr class="hrr">
-  
-            <div class="rwwnn">
-              <h2>Total</h2>
-              <h2 id="amtt">₹0</h2>
-            </div>
-            <button id="checkout">Checkout Now</button>
-  
-          </div>
-  
-          </div>
-        </div> 
-      </div>
 
-      
+        <div class="calculation">
+          <div class="rww">
+            <p>Total MRP</p>
+            <h3 id="ctt">₹200</h3>
+          </div>
+
+          <div class="rwwn">
+            <p>Shopping Charge</p>
+            <h3>Free</h3>
+          </div>
+          <hr class="hrr">
+
+          <div class="rwwnn">
+            <h2>Total</h2>
+            <h2 id="amtt">₹0</h2>
+          </div>
+          <button id="checkout">Checkout Now</button>
+        </div>
+      </div>
     </div>
+  </div>
+
+
+  </div>
   <hr>
   <footer id="footer"></footer>
-  </body>
+</body>
+
 </html>
 <script src="./scripts/add.js" type="module"></script>

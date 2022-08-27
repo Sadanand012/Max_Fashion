@@ -24,7 +24,7 @@ document.getElementById("login").addEventListener("submit", MyFun);
 				return v.email == eml && v.password == psw;
 			})[0];
 			localStorage.setItem("name", current_user.name);
-			window.location.href = "main1.html";
+			window.location.href = "homePage.html";
 		} else {
 			alert("Login Failed");
 		}

@@ -1,6 +1,6 @@
 import { navbar } from "../components/navbar.js";
 import { footer_home } from "../components/footer.js";
-import {offer_navbar} from "../components/offern_navbar.js";
+import { offer_navbar } from "../components/offern_navbar.js";
 document.getElementById("offer_s").innerHTML = offer_navbar()
 document.getElementById("navbar").innerHTML = navbar()
 document.getElementById("footer").innerHTML = footer_home()
@@ -32,7 +32,7 @@ let left = document.getElementById("card");
 
 let Append = (data) => {
   var count = 0;
-  let p=0;
+  let p = 0;
   left.innerHTML = null;
   data.forEach((e, i) => {
     let product = document.createElement("div");
@@ -69,11 +69,11 @@ let Append = (data) => {
 
     //let hr=document.createElement("hr");
     let ftr = document.createElement("div");
-    let h6 = document.createElement("h6");
-    h6.innerHTML = "Delivery in Enter Pincode above";
-    h6.id = "fxx";
+    let h60 = document.createElement("h6");
+    h60.innerHTML = "Delivery in Enter Pincode above";
+    h60.id = "fxx";
 
-    ftr.append(h6);
+    ftr.append(h60);
 
     let bt = document.createElement("div");
     bt.id = "btn";
@@ -93,7 +93,7 @@ let Append = (data) => {
     product.append(im, detail);
     left.append(product, ftr);
     count++;
-  p = p+(+(e.amount));
+    p = p + (+(e.amount));
   });
   console.log(count);
   console.log(p);
@@ -103,35 +103,35 @@ let Append = (data) => {
 };
 
 function fremove(e, i) {
- data.splice(e,1);
+  data.splice(e, 1);
   localStorage.setItem("data", JSON.stringify(data));
   Append(data);
 }
 Append(data);
 
 
-document.querySelector("form").addEventListener("submit",function(e){
-  let pin=[82801,751025,82811,80801];
-let check=document.getElementById("pincode").value;
-function ans(){
-  for(let i=0;i<pin.length;i++){
-    if(pin[i]==check){
-     console.log("true")
-     break;
+document.querySelector("form").addEventListener("submit", function (e) {
+  let pin = [82801, 751025, 82811, 80801];
+  let check = document.getElementById("pincode").value;
+  function ans() {
+    for (let i = 0; i < pin.length; i++) {
+      if (pin[i] == check) {
+        console.log("true")
+        break;
+      }
+      console.log("false");
     }
-    console.log("false");
   }
-}
-let x=ans();
-console.log(x);
-if(x==true){
-alert("Delivery Abailable")
-}else{
-alert("Sorry")
-}
+  let x = ans();
+  console.log(x);
+  if (x == true) {
+    alert("Delivery Abailable")
+  } else {
+    alert("Sorry")
+  }
 });
 
 let clickonnew = document.getElementById("checkout");
-clickonnew.addEventListener("click",function(){
+clickonnew.addEventListener("click", function () {
   window.location.href = "checkout.html";
 })
