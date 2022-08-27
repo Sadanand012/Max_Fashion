@@ -126,6 +126,7 @@ body{
     position: sticky;
     top: 0;
     margin-top: -1px;
+    z-index: 1200;
 }
 
 .center_s {
@@ -501,7 +502,22 @@ body{
     background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -640px -155px no-repeat;
 }
 
-
+@media (min-width:320px) and (max-width:720px){
+    .center_s {
+        width: 100%;
+        margin: auto;
+        padding: 0px 20px;
+        max-width: 600px;
+    }
+}
+@media (min-width:721px) and (max-width:1200px){
+    .center_s {
+        width: 100%;
+        margin: auto;
+        padding: 0px 20px;
+        max-width: 1000px;
+    }
+}
 /* ----------------------- footer -----------------------------------------*/
 
 .footer_01{
