@@ -1,6 +1,16 @@
+import { navbar } from "../components/navbar.js";
+import { footer_home } from "../components/footer.js";
+import { offer_navbar } from "../components/offern_navbar.js";
+document.getElementById("offer_s").innerHTML = offer_navbar()
+document.getElementById("navbar").innerHTML = navbar()
+//document.getElementById("footer").innerHTML = footer_home()
 
-
-// let data=JSON.parse(localStorage.getItem("payment")) || [];
+let maxCart=[{price:300},
+{price:100},
+{price:100},
+]
+localStorage.setItem("maxCart",JSON.stringify(maxCart));
+let data=JSON.parse(localStorage.getItem("maxCart")) || [];
 
 
 let form = document.getElementById("form");
@@ -46,3 +56,16 @@ function Account(n,cn,m,y,c,ct,pc,con,a){
     this.cname=con;
     this.address=a;
 }
+
+let calculation=()=>{
+    let total=0;
+    data.forEach(e=> {
+       total=total+e.price;
+    });
+    console.log(total);
+    document.getElementById("individual").innerText=`₹${total}`;
+    document.getElementById("subtotal").innerText=`₹${total}`;
+    document.getElementById("toatlDue").innerText=`₹${total}`;
+
+}
+calculation();

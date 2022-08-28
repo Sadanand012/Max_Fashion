@@ -1,192 +1,229 @@
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Payment Page</title>
-    <link rel="stylesheet" href="./styles/checkout.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <div style="background-color: #F7F8F7;">
-        <img   style="height:38px;margin:20px; margin-top: 15px; margin-left: 20px;"
-        src="//i1.lmsin.net/website_images/in/logos/header/logo-max.svg" alt="">
-    </div>
-    
+    <link rel="stylesheet" href="./styles/checkout.css" />
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/x-icon" href="https://i1.lmsin.net/website_images/in/favicons/max/favicon-32x32.png">
+    <script src="https://kit.fontawesome.com/e9bb69dc7f.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="offer_s"></div>
+    <div id="navbar"></div>
+  
+
     <div id="om">
-        <div id="om1">
-            <div id="div3">
-                <div id="div4">
-                    <div id="div5">1</div>
-                        <h2 style="color:black; margin-left:10px;">Account details</h2>
+      <div id="om1">
+        <div id="div3">
+          <div id="div4">
+            <div id="div5">1</div>
+            <h2 style="color: lightseagreen; margin-left: 10px">Account details</h2>
+          </div>
+          <div style="margin-right: 25px">
+            <p style="font-size: 12px; color: black; margin-top: 30px">
+              Already have an account?
+            </p>
+            <a href="Login.html"
+              ><p
+                style="
+                  color: #1fa0d6;
+                  font-size: 12px;
+                  margin-top: -27px;
+                  margin-left: 134px;
+                "
+              >
+                <b>Sign in</b>
+              </p></a
+            >
+          </div>
+        </div>
+
+        <div id="payment">
+          <form id="form">
+            <div id="parent1">
+              <div id="left">
+                <div id="skm1">
+                  <div id="skm2">2</div>
+                  <h2 style="color:green; margin-left: 10px">Payment</h2>
                 </div>
-                <div style="margin-right: 25px;">
-                    <p style="font-size: 12px; color:black; margin-top:30px">Already have an account?</p>
-                    <a href="signIn.html"><p style="color:#1fa0d6 ;font-size: 12px;margin-top: -27px; margin-left: 134px;"> <b>Sign in</b></p></a>
+                <label for="">Name on card*</label>
+                <input type="text" id="name" placeholder="Enter name" />
+                <label for="">Expiration*</label>
+                <div id="select">
+                  <select name="" id="month">
+                    <option value="">-Select One-</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                  </select>
+                  <select name="" id="year">
+                    <option value="">-Select One-</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                    <option value="2025">2025</option>
+                    <option value="2026">2026</option>
+                    <option value="2027">2027</option>
+                    <option value="2028">2028</option>
+                    <option value="2029">2029</option>
+                    <option value="2030">2030</option>
+                    <option value="2031">2031</option>
+                    <option value="2032">2032</option>
+                    <option value="2033">2033</option>
+                  </select>
                 </div>
+                <label for="">Address*</label>
+                <input type="text" id="add" placeholder="Enter Address" />
+                <label for="">Country*</label>
+                <select name="" id="cname">
+                  <option value="">-Select One-</option>
+                  <option value="india">India</option>
+                  <option value="australia">Australia</option>
+                  <option value="japan">Japan</option>
+                  <option value="usa">USA</option>
+                  <option value="britain">Britain</option>
+                  <option value="finland">Finland</option>
+                  <option value="denmark">Denmark</option>
+                  <option value="sweden">Sweden</option>
+                  <option value="france">France</option>
+                  <option value="russia">Russia</option>
+                  <option value="netherland">Netherland</option>
+                </select>
+                <label for="">State*</label>
+                <input type="text" />
+              </div>
+
+              <div id="right">
+                <div id="card">
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1e51CBuV0QHTD5KKX6Tjzs0h9cODvSIeww&usqp=CAU"
+                    alt=""
+                  />
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgIpkF_9lxBLl1-4TFj2Hl3fRcGPg4lmWhQ&usqp=CAU"
+                    alt=""
+                  />
+                  <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5uAFVAH-UUB1RdAO73od4P6IgHN3a3k0QIg&usqp=CAU"
+                    alt=""
+                  />
+                </div>
+                <label for>Card number*</label>
+                <input
+                  type="number"
+                  id="cardn"
+                  placeholder="Enter Card Number"
+                />
+                <label for="">CVV*</label>
+                <input type="number" id="cvv" />
+                <label for="">Address Cont.</label>
+                <input type="text" />
+                <label for="">City*</label>
+                <input type="text" id="city" />
+                <label for="">Postal Code*</label>
+                <input type="number" id="pcode" />
+              </div>
             </div>
-        
-        
-        
-        
-            <div id="payment">
-                <form id="form">
-                    <div id="parent1">
-                        <div id="left">
-                            <div id="skm1">
-                                <div id="skm2">2</div>
-                                    <h2 style="color:black; margin-left:10px;">Payment</h2>
-                            </div>
-                            <label for="">Name on card*</label>
-                            <input type="text" id="name" placeholder="Enter name">
-                            <label for="">Expiration*</label>
-                            <div id="select">
-                                <select name="" id="month">
-                                    <option value="">-Select One-</option>
-                                    <option value="1">1</option>
-                                    <option value="2">2</option>
-                                    <option value="3">3</option>
-                                    <option value="4">4</option>
-                                    <option value="5">5</option>
-                                    <option value="6">6</option>
-                                    <option value="7">7</option>
-                                    <option value="8">8</option>
-                                    <option value="9">9</option>
-                                    <option value="10">10</option>
-                                    <option value="11">11</option>
-                                    <option value="12">12</option>
-                                </select>
-                                <select name="" id="year">
-                                    <option value="">-Select One-</option>
-                                    <option value="2022">2022</option>
-                                    <option value="2023">2023</option>
-                                    <option value="2024">2024</option>
-                                    <option value="2025">2025</option>
-                                    <option value="2026">2026</option>
-                                    <option value="2027">2027</option>
-                                    <option value="2028">2028</option>
-                                    <option value="2029">2029</option>
-                                    <option value="2030">2030</option>
-                                    <option value="2031">2031</option>
-                                    <option value="2032">2032</option>
-                                    <option value="2033">2033</option>
-                                </select>
-                            </div>
-                            <label for="">Address*</label>
-                            <input type="text" id="add" placeholder="Enter Address">
-                            <label for="">Country*</label>
-                            <select name="" id="cname">
-                                <option value="">-Select One-</option>
-                                <option value="india">India</option>
-                                <option value="australia">Australia</option>
-                                <option value="japan">Japan</option>
-                                <option value="usa">USA</option>
-                                <option value="britain">Britain</option>
-                                <option value="finland">Finland</option>
-                                <option value="denmark">Denmark</option>
-                                <option value="sweden">Sweden</option>
-                                <option value="france">France</option>
-                                <option value="russia">Russia</option>
-                                <option value="netherland">Netherland</option>
-                            </select>
-                            <label for="">State*</label>
-                            <input type="text">
-                        </div>
-            
-                        
-                        <div id="right">
-                            <div id="card">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV1e51CBuV0QHTD5KKX6Tjzs0h9cODvSIeww&usqp=CAU" alt="">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfgIpkF_9lxBLl1-4TFj2Hl3fRcGPg4lmWhQ&usqp=CAU" alt="">
-                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5uAFVAH-UUB1RdAO73od4P6IgHN3a3k0QIg&usqp=CAU" alt="">  
-                            </div>
-                            <label for>Card number*</label>
-                            <input type="number" id="cardn" placeholder="Enter Card Number">
-                            <label for="">CVV*</label>
-                            <input type="number" id="cvv">
-                            <label for="">Address Cont.</label>
-                            <input type="text">
-                            <label for="">City*</label>
-                            <input type="text" id="city">
-                            <label for="">Postal Code*</label>
-                            <input type="number" id="pcode">
-                        </div>
-                    </div>
-                    <input type="submit" id="submit" class="submitBtn123" value="Confirm Payment">
-                </form>
-            </div>
-        
-            <!-- <div id="skm">
+            <input
+              type="submit"
+              id="submit"
+              class="submitBtn123"
+              value="Confirm Payment"
+            />
+          </form>
+        </div>
+
+        <!-- <div id="skm">
                 <div id="skm3">
                     <div id="skm4">3</div>
                     <h2 style="color:black; margin-left:10px;">Review and Confirm</h2>
                 </div>
             </div> -->
-        </div>
+      </div>
 
-
-        <div id="order">
-            <div id="order1">
-                <div id="order2">
-                    <h2 style="color:black; margin-top:20px; margin-left:20px;padding-top: 20px;">Order Summary</h2>
-                        <div id="order3">
-                            <p>PLAN</p>
-                            <p style="margin-left:300px">PRICE</p>
-                        </div>
-                        <div id="order4">
-                            <h3 style="margin:0px 0px 0px 19px">Individual Standard</h3>
-                            <div id="order5" style="margin-left:0px;height:30px;width:50px;"></div>
-                            <h3 style="margin-left:50px;margin-top: 0px;">₹12299</h3>
-                        </div>
-                        <!-- <div id="div13a">
+      <div id="order">
+        <div id="order1">
+          <div id="order2">
+            <h2
+              style="
+                color: black;
+                margin-top: 20px;
+                margin-left: 20px;
+                padding-top: 20px;
+              "
+            >
+              Order Summary
+            </h2>
+            <div id="order3">
+              <h3>PLAN</h3>
+              <h3> PRICE</h3>
+            </div>
+            <div id="order4">
+                <h4>Individual Standard</h4>
+              <h4 id="individual"></h4>
+              
+            </div>
+            <!-- <div id="div13a">
                             <h5>WHAT'S INCLUDED</h5>
                             <div id="tick">
                                 <i class="fa fa-check" aria-hidden="true"></i>
                                 <p>Core library with 2,500+ of our most-popular courses on in-demand topics</p>
                             </div>
                         </div> -->
-    
-                        <hr style="margin:0px 20px 0px 15px ">
-    
-    
-                        <div id="order6" >
-                            <p style="color:black;">SUBTOTAL</p>
-                            <p style="margin-left: 65px; font-size: 20px; color:white;margin-top:13px">₹</p>
-                            <P style="margin-left: 0px; font-size: 20px; color:white;margin-top:13px">12299</P>
-                        </div>
-    
-                        <div id="order7" >
-                            <p style="color:black;">ESTIMATED TAX✝</p>
-                            <p style="margin-left: 25px; font-size: 20px; color:white;margin-top:13px">₹</p>
-                            <P style="margin-left: 0px; font-size: 20px; color:white;margin-top:13px">0</P>
-                        </div>
-                
-                        <hr style="margin:0px 20px 0px 15px ">
-    
-                        <div id="order8" >
-                            <h3 style="color:black; margin-top: 10px; margin-left: 10px;">Total due today </h3>
-                            <p style="margin-left: 180px; font-size: 20px; color:white;margin-top:13px">₹</p>
-                            <P id="rish4" style="margin-left: 0px; font-size: 20px; color:white;margin-top:13px">12299</P>
-                        </div>
-                </div>
-    
-                    <p style="color:black; font-size:11px;margin-left: 10px;">
-                        ✝ Pluralsight is required by law to collect transaction taxes such as sales tax, VAT, GST or other 
-                        similar taxes on purchases in some jurisdictions.
-                         The actual tax amount will be calculated based on the applicable jurisdictional tax rates when 
-                         your order is processed.
-                    </p>
-                    <p style="color:black; font-size:11px;margin-left: 10px;">✝✝ Excluding transaction taxes such as sales tax, VAT, GST and other similar taxes</p>
+
+            <hr style="margin: 0px 20px 0px 15px" />
+
+            <div id="order6">
+             <h3>Subtotal</h3>
+             <h4 id="subtotal"></h4>
+             
             </div>
 
+
+
+            <hr style="margin: 0px 20px 0px 15px" />
+
+            <div id="order8">
+                <h3>Total Due</h3>
+                <h4 id="toatlDue"></h4>
+            </div>
+          </div>
+
+          <p style="color: black; font-size: 11px; margin-left: 10px">
+            ✝ Pluralsight is required by law to collect transaction taxes such
+            as sales tax, VAT, GST or other similar taxes on purchases in some
+            jurisdictions. The actual tax amount will be calculated based on the
+            applicable jurisdictional tax rates when your order is processed.
+          </p>
+          <p style="color: black; font-size: 11px; margin-left: 10px">
+            ✝✝ Excluding transaction taxes such as sales tax, VAT, GST and other
+            similar taxes
+          </p>
         </div>
+      </div>
     </div>
 
     <a href="../review page/review.html"></a>
-    
-</body>
+  </body>
 </html>
 
-<script src="./scripts/checkout.js"></script>
+<script src="./scripts/checkout.js" type="module"></script>
