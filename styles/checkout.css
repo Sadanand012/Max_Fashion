@@ -11,10 +11,11 @@ body{
     display: flex;
     justify-content: space-between;
     height: 70px;
-    width: 95%;
+    width: 100%;
     margin-bottom: 20px;
     background-color: white;
     margin-top: 20px;
+    align-items: center;
 }
 #div5,#skm2,#skm4{
     height: 20px;
@@ -27,7 +28,6 @@ body{
     background-color: black;
     margin-top: 23px;
     /* margin-left:0px; */
-    
 }
 #payment{
     width: 95%;
