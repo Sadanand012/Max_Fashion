@@ -1,5 +1,5 @@
-let navbar =()=>{
-    return `<div class="center_s">
+let navbar = () => {
+  return `<div class="center_s">
     <div class="center_nav">
         <div class="left_navbar">
             <!-- left side of navbar -->
@@ -9,7 +9,7 @@ let navbar =()=>{
             <div class="menu_flex">
                 <div class="menu_s">
                     <!-- Women -->
-                    <a href="homePage.html" class="category_s category_font category_sec">
+                    <a href="ptoducts.html" class="category_s category_font category_sec">
                         <span class="sect_cen">Women</span>
                     </a>
                     <!-- dropdown -->
@@ -24,7 +24,7 @@ let navbar =()=>{
                                             <li>Indian wear</li>
                                             <li>Sports wear</li>
                                             <li>Lingerie</li>
-                                            <li>Dresses</li>
+                                            <li class="serchProducts">Dresses</li>
                                             <li>Bottom Wear</li>
                                             <li>Sleepwear</li>
                                         </ul>
@@ -33,7 +33,7 @@ let navbar =()=>{
                                         <p>Curves (Plus Size)</p>
                                         <ul>
                                             <li>Tops & Tees</li>
-                                            <li>Dresses</li>
+                                            <li class="serchProducts">Dresses</li>
                                             <li>Kurtas</li>
                                             <li>Denims</li>
                                             <li>Sportswear</li>
@@ -78,7 +78,7 @@ let navbar =()=>{
                                     <div  class="list">
                                         <p>Dresses & Jumpsuits</p>
                                         <ul>
-                                            <li>Dresses</li>
+                                            <li class="serchProducts">Dresses</li>
                                             <li>Jumpsuits & Dungarees</li>
                                             <li>Curves (Plus Size)</li>
                                         </ul>
@@ -86,7 +86,7 @@ let navbar =()=>{
                                     <div  class="list">
                                         <p>Sleepwear</p>
                                         <ul>
-                                            <li>Dresses & Gowns</li>
+                                            <li >Dresses & Gowns</li>
                                             <li>Sets</li>
                                             <li>Tops</li>
                                             <li>Bottoms</li>
@@ -96,9 +96,9 @@ let navbar =()=>{
                                     <div  class="list">
                                         <p>Indian Wear</p>
                                         <ul>
-                                            <li>Kurtas & Kurti</li>
+                                            <li class="serchProducts">Kurtas & Kurti</li>
                                             <li>Tops</li>
-                                            <li>Dresses</li>
+                                            <li class="serchProducts">Dresses</li>
                                             <li>Suits & Sets</li>
                                             <li>Palazzos & Culottes</li>
                                             <li>Salwar & Patialas</li>
@@ -196,9 +196,9 @@ let navbar =()=>{
                                     <div  class="list">
                                         <p>Tops</p>
                                         <ul>
-                                            <li>T-Shirts</li>
+                                            <li class="serchProducts">T-Shirts</li>
                                             <li>Polos</li>
-                                            <li>Casual Shirts</li>
+                                            <li class="serchProducts">Casual Shirts</li>
                                             <li>Formal Shirts</li>
                                         </ul>
                                     </div>
@@ -233,7 +233,7 @@ let navbar =()=>{
                                             <li>Vests</li>
                                             <li>Belts</li>
                                             <li>Bags</li>
-                                            <li>Caps</li>
+                                            <li class="serchProducts">Caps</li>
                                             <li>Wallets</li>
                                             <li>Socks</li>
                                             <li>Handkerchiefs</li>
@@ -328,8 +328,8 @@ let navbar =()=>{
                                             <li>Sunglasses</li>
                                             <li>Socks</li>
                                             <li>Hair Accessories</li>
-                                            <li>Back To School</li>
-                                            <li>Soft Toys</li>
+                                            <li  class="serchProducts">Back To School</li>
+                                            <li  class="serchProducts">Soft Toys</li>
                                         </ul>
                                     </div>
                                     <div  class="list">
@@ -404,7 +404,7 @@ let navbar =()=>{
                                     <div  class="list">
                                         <p>Tops</p>
                                         <ul>
-                                            <li>Tees & Polos</li>
+                                            <li class="serchProducts">Tees & Polos</li>
                                             <li>Dresses</li>
                                             <li>Kurtas</li>
                                             <li>Shirts</li>
@@ -450,7 +450,7 @@ let navbar =()=>{
                                         <p>Footwear</p>
                                         <ul>
                                             <li>Casual Shoes</li>
-                                            <li>Sandals & Flip Flops</li>
+                                            <li class="serchProducts">Sandals & Flip Flops</li>
                                             <li>Boots</li>
                                             <li>Sports Shoes</li>
                                         </ul>
@@ -470,7 +470,7 @@ let navbar =()=>{
                                             <li>Bodysuits & Slpeersuits</li>
                                             <li>Clothing Sets</li>
                                             <li>Gift Sets</li>
-                                            <li>Tees & Polos</li>
+                                            <li class="serchProducts" >Tees & Polos</li>
                                             <li>Shirts</li>
                                             <li>Jeans & Trousers</li>
                                             <li>Trackpants & Joggers</li>
@@ -481,7 +481,7 @@ let navbar =()=>{
                                     </div>
                                     
                                     <div  class="list">
-                                        <p>Winterwear</p>
+                                        <p class="serchProducts">Winterwear</p>
                                         <ul>
                                             <li>Sweatshirts & Hoodies</li>
                                             <li>Sweates & Cardigans</li>
@@ -548,7 +548,7 @@ let navbar =()=>{
             </div>
         </div>
     </div>
-</div>`
-}
+</div>`;
+};
 
-export{navbar};
+export { navbar };
