@@ -21,10 +21,10 @@ body{
     width: 20px;
     /* border: 1px solid red; */
     border-radius: 50%;
-    color: black;
+    color: white;
     text-align:center;
     padding-top:1px;
-    background-color: blue;
+    background-color: black;
     margin-top: 23px;
     /* margin-left:0px; */
     
@@ -119,6 +119,7 @@ input,select{
 }
 #order1{
     width: 90%;
+    
     /* margin-left: -120px; */
 }
 #order2{
@@ -131,24 +132,42 @@ input,select{
 #order3{
     display: flex;
     color:black;
-    margin-left:0px;
-    font-size: 14px;
+    justify-content: space-between;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 #order4{
     display: flex;
-    color:black;
+    justify-content: space-between;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 #order6{
     display: flex;
-    margin-left:220px;
+    justify-content: space-between;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
 }
 #order7{
     display: flex;
-    margin-left:220px;
-    margin-top: -20px;
+    justify-content: space-between;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
 }
 #order8{
     display: flex;
-    margin-left:10px;
-    margin-top: 20px;
+    justify-content: space-between;
+    margin: 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+#subtotal{
+    color: green;
+}
+#toatlDue{
+color: red;
 }
