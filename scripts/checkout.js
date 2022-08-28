@@ -5,13 +5,14 @@ document.getElementById("offer_s").innerHTML = offer_navbar()
 document.getElementById("navbar").innerHTML = navbar()
 //document.getElementById("footer").innerHTML = footer_home()
 
-let maxCart=[{price:300},
-{price:100},
-{price:100},
-]
-localStorage.setItem("maxCart",JSON.stringify(maxCart));
-let data=JSON.parse(localStorage.getItem("maxCart")) || [];
+// let maxCart=[{price:300},
+// {price:100},
+// {price:100},
+// ]
+// localStorage.setItem("maxCart",JSON.stringify(maxCart));
 
+let data = JSON.parse(localStorage.getItem("maxCart")) || [];
+console.log(data);
 
 let form = document.getElementById("form");
 form.addEventListener("submit",paymentDetails)
@@ -41,7 +42,7 @@ function paymentDetails(event){
     }
     else{
         alert("Your payment is done")
-        window.location.href="../homePage.html";
+        window.location.href="homePage.html";
     }
 }
 
@@ -60,9 +61,10 @@ function Account(n,cn,m,y,c,ct,pc,con,a){
 let calculation=()=>{
     let total=0;
     data.forEach(e=> {
-       total=total+e.price;
+       total=total+(+e.price);
     });
     console.log(total);
+
     document.getElementById("individual").innerText=`₹${total}`;
     document.getElementById("subtotal").innerText=`₹${total}`;
     document.getElementById("toatlDue").innerText=`₹${total}`;

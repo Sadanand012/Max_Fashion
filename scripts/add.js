@@ -6,28 +6,28 @@ document.getElementById("navbar").innerHTML = navbar()
 document.getElementById("footer").innerHTML = footer_home()
 
 
-let data1 = [
-  {
-    Image:
-      "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011359693-Red-RED-1000011359693-31072022_01-2100.jpg",
-    heading: "Tshirt",
-    amount: "299",
-    rang: "blue",
-    lngth: "xl",
-  },
-  {
-    Image:
-      "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011359693-Red-RED-1000011359693-31072022_01-2100.jpg",
-    heading: "Tshirt",
-    amount: "299",
-    rang: "blue",
-    lngth: "xl",
-  },
-];
+// let data1 = [
+//   {
+//     Image:
+//       "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011359693-Red-RED-1000011359693-31072022_01-2100.jpg",
+//     heading: "Tshirt",
+//     amount: "299",
+//     rang: "blue",
+//     lngth: "xl",
+//   },
+//   {
+//     Image:
+//       "https://lmsin.net/cdn-cgi/image/h=831,w=615,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011359693-Red-RED-1000011359693-31072022_01-2100.jpg",
+//     heading: "Tshirt",
+//     amount: "299",
+//     rang: "blue",
+//     lngth: "xl",
+//   },
+// ];
 //maxCart
-localStorage.setItem("data", JSON.stringify(data1));
-let data = JSON.parse(localStorage.getItem("data")) || [];
-
+// localStorage.setItem("data", JSON.stringify(data1));
+let data = JSON.parse(localStorage.getItem("maxCart")) || [];
+console.log(data);
 let left = document.getElementById("card");
 
 let Append = (data) => {
@@ -45,7 +45,7 @@ let Append = (data) => {
 
     imgg.id = "imgg";
 
-    imgg.src = e.Image;
+    imgg.src = e.image;
 
     im.append(imgg);
 
@@ -54,16 +54,16 @@ let Append = (data) => {
 
     let title = document.createElement("h4");
 
-    title.innerText = e.heading;
+    title.innerText = e.title;
 
     let price = document.createElement("h4");
-    price.innerText = `₹ ${e.amount}`;
+    price.innerText = `₹ ${e.price}`;
 
     let color = document.createElement("h6");
-    color.innerText = `Price:${e.rang}`;
+    color.innerText = `Color:${e.color[0]}`;
 
     let size = document.createElement("h6");
-    size.innerText = `Size:${e.lngth}`;
+    size.innerText = `Size:${e.size[0]}`;
 
     detail.append(title, price, color, size);
 
@@ -93,7 +93,7 @@ let Append = (data) => {
     product.append(im, detail);
     left.append(product, ftr);
     count++;
-    p = p + (+(e.amount));
+    p = p + (+(e.price));
   });
   console.log(count);
   console.log(p);
@@ -104,7 +104,7 @@ let Append = (data) => {
 
 function fremove(e, i) {
   data.splice(e, 1);
-  localStorage.setItem("data", JSON.stringify(data));
+  localStorage.setItem("maxCart", JSON.stringify(data));
   Append(data);
 }
 Append(data);

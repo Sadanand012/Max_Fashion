@@ -341,6 +341,8 @@ let Display = (data) => {
     // add product to cart
     addBasketBtn.addEventListener("click", function () {
       if (sizeBtnDiv.innerText !== "Select Size") {
+        data[i].color[0] = colorSpan.innerText;
+        data[i].size[0] = sizeBtn.innerText
         maxCart.push(data[i]);
         localStorage.setItem("maxCart", JSON.stringify(maxCart));
         alert("product added Succesfully!");
