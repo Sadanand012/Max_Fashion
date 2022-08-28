@@ -1,13 +1,65 @@
+// keys value pairs for search query
+let serverKeys = {
+  womenKurta: "Kurtas & Kurti",
+  womenDresses: "Dresses",
+  menTShirt: "T-Shirts",
+  menCausalShirt: "Casual Shirts",
+  menCaps: "Caps",
+  girlsBackSchool: "Back To School",
+  girlsToys: "Soft Toys",
+  boysTees: "Tees & Polos",
+  boySandles: "Sandals & Flip Flops",
+};
+
+// "girlsBackSchool"
+// "girlsToys"
+// "boysTees"
+// "boySandles"
+
+// import header and footer
+import { navbar } from "../components/navbar.js";
+import { footer_home } from "../components/footer.js";
+import { offer_navbar } from "../components/offern_navbar.js";
+
+document.getElementById("offer_s").innerHTML = offer_navbar();
+document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("footer").innerHTML = footer_home();
+
+let serchProduct = document.getElementsByClassName("serchProducts");
 let searchTitle = document.getElementById("searchTitle");
 let container = document.getElementById("container");
+let elementFind = document.getElementById("elementFind");
 
+// localStorage keys
 let maxCart = JSON.parse(localStorage.getItem("maxCart")) || [];
 let Favourites = JSON.parse(localStorage.getItem("FavouriteProducts")) || [];
 
-async function getData() {
-  let search = "Soft Toys";
-  let query = "menCaps";
-  searchTitle.innerText = search;
+// ****** click event generated from navbar ---find query ******
+//console.log(serchProduct);
+for (let m = 0; m < serchProduct.length; m++) {
+  serchProduct[m].addEventListener("click", function () {
+    serchProducts(this);
+  });
+}
+function serchProducts(trigger) {
+  trigger = trigger.innerText;
+  console.log(trigger);
+  let serchKey;
+  for (let i in serverKeys) {
+    if (serverKeys[i] == trigger) {
+      serchKey = i;
+    }
+  }
+  console.log(trigger, serchKey);
+  getData(serchKey, trigger);
+}
+
+// data fecth function *#*****#*
+
+async function getData(query, serchTitle) {
+  // let search = "Soft Toys";
+  // let query = "menCaps";
+  searchTitle.innerText = serchTitle;
 
   try {
     let res = await fetch(`http://localhost:3000/${query}`);
@@ -20,26 +72,78 @@ async function getData() {
     if (data) {
       container.innerHTML = null;
     }
-    Display(data);
+    sendData(data);
   } catch (err) {
     console.log(err.message);
+    container.innerHTML = null;
+    container.innerText = "Page not find....";
   }
 }
-getData();
+getData("womenKurta", "Women");
 
+// collecting data for various operations
+
+let min = Infinity;
+let max = -Infinity;
+let diffrentSizes = {};
+let diffrentColors = {};
+let tags = {};
+
+function sendData(data) {
+  data.forEach(({ image, title, price, color, size, online, extraInfo }) => {
+    let bag = "";
+    for (let i = 0; i < price.length; i++) {
+      if (price[i] != ",") {
+        bag += price[i];
+      }
+    }
+    let MRP = Number(bag);
+    // console.log(MRP, "*3#");
+
+    if (min > MRP) {
+      min = MRP;
+    }
+    if (max < MRP) {
+      max = MRP;
+    }
+
+    for (let siz of size) {
+      diffrentSizes[siz] == undefined
+        ? (diffrentSizes[siz] = 0)
+        : diffrentSizes[siz]++;
+    }
+
+    for (let col of color) {
+      diffrentColors[col] == undefined
+        ? (diffrentColors[col] = 0)
+        : diffrentColors[col]++;
+    }
+    tags[online] == undefined ? (tags[online] = 0) : tags[online]++;
+    tags[extraInfo] == undefined ? (tags[extraInfo] = 0) : tags[extraInfo]++;
+  });
+  console.log(min, max, diffrentSizes, diffrentColors, tags);
+  Display(data);
+}
+
+// constructor function for create element with innertext
 function create(element, text = "") {
   let ele = document.createElement(element);
   ele.innerText = text;
 
   return ele;
 }
+
+// constructor function for create div with className
 function createDiv(classname = "") {
   let el = document.createElement("div");
   el.className = classname;
   return el;
 }
 
+//                                             Display Function Main **/** */
+
 let Display = (data) => {
+  elementFind.innerText = data.length + "   Results found";
   data.forEach(({ image, title, price, color, size, online, extraInfo }, i) => {
     let images = [];
     images.push(image);
@@ -149,7 +253,7 @@ let Display = (data) => {
     colorBtn.append(colorImg, colorSpan, colorDownArray);
     let colorDiv = createDiv("colorDiv");
 
-    console.log(color.length);
+    // console.log(color.length);
     let elementImage = image;
     if (color.length > 1) {
       colorDownArray.src = "./images/icons8-down-24.png";
@@ -160,7 +264,7 @@ let Display = (data) => {
 
         data.forEach((element) => {
           if (element.title == title && element.image.includes(el)) {
-            console.log(element, "****");
+            //  console.log(element, "****");
             colorImg.src = element.image;
             elementImage = element.image;
           }
@@ -173,7 +277,7 @@ let Display = (data) => {
         // eventlitsner for change color
         insideColorDiv.addEventListener("click", function () {
           changeImageColor(colorBtn, elementImage, this, div1, colorDownArray);
-          console.log(this);
+          // console.log(this);
           colorDiv.style.display = "none";
         });
         colorDiv.append(insideColorDiv);
@@ -213,7 +317,7 @@ let Display = (data) => {
         // select size call function
         size.addEventListener("click", function () {
           selectSize(sizeBtn, this, downArrow);
-          console.log(this);
+          //  console.log(this);
           sizeDiv.style.display = "none";
         });
 
@@ -282,7 +386,7 @@ function sliderStop(image, reset) {
   reset.append(img);
   reset.style.transform = "translateX(0%)";
   reset.style.transition = "0s";
-  console.log("***", id, img, reset);
+  //console.log("***", id, img, reset);
 }
 
 // function sliderData(images, div1) {
@@ -305,7 +409,7 @@ let sliderStart = (images, div1) => {
     let img = create("img");
     img.src = images[i];
     div1.append(img);
-    console.log(i, images.length);
+    // console.log(i, images.length);
     div1.style.transition = "0.7s";
     div1.style.transform = `translateX(${z * -100}%)`;
 
@@ -315,7 +419,7 @@ let sliderStart = (images, div1) => {
 };
 
 function openDiv(Arrow, enableDiv, parent) {
-  console.log(enableDiv.innerHTML == "");
+  // console.log(enableDiv.innerHTML == "");
   if (enableDiv.style.display == "block") {
     Arrow.src = "./images/icons8-down-24.png";
     enableDiv.style.display = "none";
@@ -332,7 +436,7 @@ function openDiv(Arrow, enableDiv, parent) {
 function changeImageColor(colorBtn, Image, ImageDiv, container) {
   colorBtn.innerHTML = ImageDiv.innerHTML;
   let img = create("img");
-  console.log(Image, "***");
+  // console.log(Image, "***");
   container.innerHTML = null;
 
   img.src = Image;
@@ -353,7 +457,7 @@ function selectSize(sizeBtn, size, Arrow) {
 function addFavourites(favor, data, product = null) {
   if (favor.style.backgroundColor == "pink") {
     favor.style.backgroundColor = "white";
-    console.log(Favourites);
+    // console.log(Favourites);
     Favourites = Favourites.filter((el) => {
       return el.id !== data[product].id;
     });
@@ -361,10 +465,11 @@ function addFavourites(favor, data, product = null) {
     favor.style.backgroundColor = "pink";
     if (product) Favourites.push(data[product]);
   }
-  console.log(Favourites);
+  // console.log(Favourites);
   localStorage.setItem("FavouriteProducts", JSON.stringify(Favourites));
 }
 
+// enable disable products detail div***********
 function enable(...Display) {
   Display.forEach((el) => {
     el.style.display = "block";

@@ -3,7 +3,8 @@
   padding: 0px;
   font-family: sans-serif;
 }
-#searchTitle {
+#searchTitle,
+#elementFind {
   width: 80%;
   margin: auto;
   padding: 20px;
@@ -123,7 +124,7 @@
   cursor: pointer;
   position: absolute;
   z-index: 22;
-  width: 90%;
+  width: 100%;
   right: 0.1px;
   background-color: white;
   padding: 0px 15px 20px 15px;
