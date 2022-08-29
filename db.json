@@ -10,27 +10,7 @@
           "color":["Blue"],
           "size":["S","M","L","XLL"]
         },
-        {
-          "id":"2",
-          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011183745-Multicolour-M-1000011183745-18042022_01-2100.jpg",
-         
-          "online": "ONLINE ONLY",
-          "extraInfo": "New",
-          "title": "MAX Women Printed Straight Kurta with Palazzos",
-          "price": "999",
-          "color":["Multicolour"],
-          "size":["S","M","XL","XLL"]
-        },
-        {
-          "id":"3",
-          "image": "https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188765-Pink-PEACH-1000011188765-21042022_01-2100.jpg",
-         "online": "ONLINE ONLY",
-          "extraInfo": "New",
-          "title": "MAX Women Floral Printed Straight Kurta with Solid Elasticated Palazzo",
-          "price": "999",
-          "color":["Pink"],
-          "size":["S","M","L","XL","XLL"]
-        },
+      
         {
           "id":"4",
           "image":"https://lmsin.net/cdn-cgi/image/h=345,w=345,q=60,fit=cover/https://aaeff43fe32172cbcecc-ae2a4e9a8cbc330ede5588dedf56886e.lmsin.net/max/1000011188492-Grey-DARKGREY-1000011188492-20042022_01-2100.jpg",

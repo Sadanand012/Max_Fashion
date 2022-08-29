@@ -9,6 +9,91 @@
   margin: auto;
   padding: 20px;
 }
+#operationFuncDiv {
+  display: flex;
+
+  width: 80%;
+  justify-content: space-evenly;
+  background-color: rgba(232, 229, 225, 0.792);
+  margin: auto;
+  padding: 30px;
+}
+#operationFuncDiv img {
+  width: 15px;
+}
+#sizeFuncDiv,
+#colourFuncDiv,
+#extraFuncDiv {
+  background-color: white;
+  border: 0.3px solid gray;
+  position: relative;
+  cursor: pointer;
+}
+.sizeFuncBtn,
+.colorFuncBtn {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  /* border: 1px solid red; */
+  color: rgb(185, 153, 153);
+  font-weight: 500;
+  padding: 10px;
+  /* font-size: 20px; */
+}
+.sizeFuncRes {
+  display: none;
+  position: absolute;
+  width: 140%;
+  border: 0.2px solid gray;
+  left: 0px;
+  top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: aliceblue;
+  z-index: 50;
+}
+.colorFuncRes {
+  display: none;
+  position: absolute;
+  width: 140%;
+  border: 0.2px solid gray;
+  left: 0px;
+  top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: aliceblue;
+  z-index: 50;
+}
+.tagFuncRes {
+  display: none;
+  position: absolute;
+  width: 140%;
+  border: 0.2px solid gray;
+  left: 0px;
+  top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: aliceblue;
+  z-index: 50;
+}
+.sizeFuncRes > p,
+.colorFuncRes > p {
+  margin: 5px 10px;
+  padding: 5px;
+}
+.colorFuncRes > p:hover {
+  background-color: bisque;
+}
+.sizeFuncRes > p:hover {
+  background-color: bisque;
+}
+.sizeFuncRes > p > span,
+.colorFuncRes > p > span {
+  font-size: 12px;
+  color: gray;
+  margin-left: 2px;
+}
+#elementFind {
+  color: green;
+  font-weight: 600;
+}
 #container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -59,7 +144,7 @@
   display: none;
   position: absolute;
   left: 1em;
-  top: 8em;
+  top: 125px;
 
   z-index: 11;
 }
@@ -74,7 +159,7 @@
   position: absolute;
   right: 1rem;
 
-  top: 8rem;
+  top: 120px;
 
   z-index: 11;
 }
