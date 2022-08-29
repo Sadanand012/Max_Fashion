@@ -99,6 +99,7 @@ async function getData(query, serchTitle) {
     container.innerText = "Page not find....";
     container.style.color = "red";
     elementFind.innerText = "Please try to search different page";
+    operationFuncDiv.innerHTML = null;
   }
 }
 getData("womenKurta", "Women");
@@ -607,7 +608,7 @@ function sliderStop(image, reset) {
   img.src = image;
   reset.append(img);
   reset.style.transform = "none";
-  reset.style.transition = "0s";
+  reset.style.transition = "";
   //console.log("***", id, img, reset);
 }
 
@@ -637,7 +638,7 @@ let sliderStart = (images, div1) => {
 
     i++;
     z++;
-  }, 2500);
+  }, 1800);
 };
 
 function openDiv(Arrow, enableDiv, parent) {
