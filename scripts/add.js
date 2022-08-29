@@ -27,7 +27,12 @@ let cartQuantity = document.getElementById("cartQuantity");
 //maxCart
 // localStorage.setItem("data", JSON.stringify(data1));
 let data = JSON.parse(localStorage.getItem("maxCart")) || [];
-cartQuantity.innerText = data.length;
+if (data) {
+  cartQuantity.innerText = data.length;
+  cartQuantity.style.display = "block";
+} else {
+  cartQuantity.style.display = "none";
+}
 console.log(data);
 let left = document.getElementById("card");
 
