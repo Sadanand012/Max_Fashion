@@ -537,6 +537,7 @@ let navbar = () => {
             </button>
             <div class="baket_s">
                 <div>
+                <span id="cartQuantity"></span>
                     <button class="nav_07">
                         <span class="sect_cen">
                             <span class="nav_08">

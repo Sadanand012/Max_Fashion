@@ -1,10 +1,10 @@
 import { navbar } from "../components/navbar.js";
 import { footer_home } from "../components/footer.js";
 import { offer_navbar } from "../components/offern_navbar.js";
-document.getElementById("offer_s").innerHTML = offer_navbar()
-document.getElementById("navbar").innerHTML = navbar()
-document.getElementById("footer").innerHTML = footer_home()
-
+document.getElementById("offer_s").innerHTML = offer_navbar();
+document.getElementById("navbar").innerHTML = navbar();
+document.getElementById("footer").innerHTML = footer_home();
+let cartQuantity = document.getElementById("cartQuantity");
 
 // let data1 = [
 //   {
@@ -27,6 +27,7 @@ document.getElementById("footer").innerHTML = footer_home()
 //maxCart
 // localStorage.setItem("data", JSON.stringify(data1));
 let data = JSON.parse(localStorage.getItem("maxCart")) || [];
+cartQuantity.innerText = data.length;
 console.log(data);
 let left = document.getElementById("card");
 
@@ -93,7 +94,7 @@ let Append = (data) => {
     product.append(im, detail);
     left.append(product, ftr);
     count++;
-    p = p + (+(e.price));
+    p = p + +e.price;
   });
   console.log(count);
   console.log(p);
@@ -105,10 +106,10 @@ let Append = (data) => {
 function fremove(e, i) {
   data.splice(e, 1);
   localStorage.setItem("maxCart", JSON.stringify(data));
+  cartQuantity.innerText = data.length;
   Append(data);
 }
 Append(data);
-
 
 document.querySelector("form").addEventListener("submit", function (e) {
   let pin = [82801, 751025, 82811, 80801];
@@ -116,7 +117,7 @@ document.querySelector("form").addEventListener("submit", function (e) {
   function ans() {
     for (let i = 0; i < pin.length; i++) {
       if (pin[i] == check) {
-        console.log("true")
+        console.log("true");
         break;
       }
       console.log("false");
@@ -125,13 +126,13 @@ document.querySelector("form").addEventListener("submit", function (e) {
   let x = ans();
   console.log(x);
   if (x == true) {
-    alert("Delivery Abailable")
+    alert("Delivery Abailable");
   } else {
-    alert("Sorry")
+    alert("Sorry");
   }
 });
 
 let clickonnew = document.getElementById("checkout");
 clickonnew.addEventListener("click", function () {
   window.location.href = "checkout.html";
-})
+});

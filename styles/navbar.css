@@ -1,235 +1,237 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
 body {
-    font-size: 14px;
-    font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: 400;
+  font-size: 14px;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 400;
 }
 
 #offer_s {
-    display: block;
-    height: 42px;
-    box-shadow: none;
-    align-items: center;
-    background-color: black;
-    /* overflow: hidden; */
-    position: sticky;
+  display: block;
+  height: 42px;
+  box-shadow: none;
+  align-items: center;
+  background-color: black;
+  /* overflow: hidden; */
+  position: sticky;
 }
 
 .offer_center {
-    width: 100%;
-    margin: auto;
-    padding: 0 20px;
-    max-width: 1276px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+  max-width: 1276px;
 }
 
 .off_center {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .off_left {
-    display: inline-flex;
-    margin-left: -24px;
+  display: inline-flex;
+  margin-left: -24px;
 }
 
 .off_right {
-    display: inline-flex;
+  display: inline-flex;
 }
 
 .off_pointer {
-    text-transform: capitalize;
-    font-weight: normal;
-    padding: 6px 8px;
-    line-height: 1.75;
-    border-radius: 2px;
-    font-size: 16px;
-    min-width: 64px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms
+  text-transform: capitalize;
+  font-weight: normal;
+  padding: 6px 8px;
+  line-height: 1.75;
+  border-radius: 2px;
+  font-size: 16px;
+  min-width: 64px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 
 .off_pointer:hover {
-    cursor: pointer;
-    text-transform: capitalize;
-
+  cursor: pointer;
+  text-transform: capitalize;
 }
 
 .off_flex {
-    display: flex;
+  display: flex;
 }
 
 .off_font {
-    color: #FFFFFF;
-    font-size: 14px;
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: normal;
-    padding-left: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: normal;
+  padding-left: 8px;
 }
 
 .off_flex_right {
-    display: flex;
-    align-items: center;
-    margin-right: -20px;
-    padding-left: 24px;
+  display: flex;
+  align-items: center;
+  margin-right: -20px;
+  padding-left: 24px;
 }
 
 .midd_off {
-    height: 18px;
-    border-left: 1px solid rgb(93, 94, 92);
-    border-top-color: rgb(93, 94, 92);
-    border-right-color: rgb(93, 94, 92);
-    border-bottom-color: rgb(93, 94, 92);
+  height: 18px;
+  border-left: 1px solid rgb(93, 94, 92);
+  border-top-color: rgb(93, 94, 92);
+  border-right-color: rgb(93, 94, 92);
+  border-bottom-color: rgb(93, 94, 92);
 }
 
 .off_right_font {
-    color: rgb(255, 255, 255);
-    font-size: 14px;
-    font-weight: 600;
-    padding-left: 12px;
-    padding-right: 12px;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 600;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .a_offer {
-    color: #FFFFFF;
-    font-size: 12px;
-    min-width: 20px;
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: normal;
-    text-transform: capitalize;
-    text-decoration: none;
-    padding: 6px 8px;
-    width: 100%;
-    line-height: 1.75;
-    border-radius: 2px;
-    border: 0;
-    cursor: pointer;
-    margin: 0;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+  color: #ffffff;
+  font-size: 12px;
+  min-width: 20px;
+  font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: normal;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 6px 8px;
+  width: 100%;
+  line-height: 1.75;
+  border-radius: 2px;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.off_left>.off_flex>img {
-    height: 20px;
-    width: 20px;
-    background: black;
-    /* object-fit: cover; */
+.off_left > .off_flex > img {
+  height: 20px;
+  width: 20px;
+  background: black;
+  /* object-fit: cover; */
 }
 
 #navbar {
-    display: block;
-    width: 100%;
-    margin: auto;
-    background-color: #F7F8F7;
-    position: sticky;
-    top: 0;
-    margin-top: -1px;
-    z-index: 1200;
+  display: block;
+  width: 100%;
+  margin: auto;
+  background-color: #f7f8f7;
+  position: sticky;
+  top: 0;
+  margin-top: -1px;
+  z-index: 1200;
 }
 
 .center_s {
-    width: 100%;
-    margin: auto;
-    padding: 0px 20px;
-    max-width: 1276px;
+  width: 100%;
+  margin: auto;
+  padding: 0px 20px;
+  max-width: 1276px;
 }
 
 .center_nav {
-    display: flex;
-    margin-left: -16px;
-    margin-right: -16px;
-    justify-content: space-between;
-    height: 64px;
-    /* border: solid black; */
+  display: flex;
+  margin-left: -16px;
+  margin-right: -16px;
+  justify-content: space-between;
+  height: 64px;
+  /* border: solid black; */
 }
 
 .left_navbar {
-    height: 64px;
-    display: flex;
-    flex-grow: 1;
-    align-items: center;
-    /* border: solid 1px green; */
+  height: 64px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  /* border: solid 1px green; */
 }
 
 .pximgs20 {
-    width: 101px;
-    height: 50px;
-    padding: 16px;
-    margin-right: unset;
+  width: 101px;
+  height: 50px;
+  padding: 16px;
+  margin-right: unset;
 }
 
 .menu_flex {
-    height: 64px;
-    display: flex;
-
+  height: 64px;
+  display: flex;
 }
 
 .menu_s {
-    height: 100%;
-    position: relative;
-    display: inline-flex;
-    align-items: center;
-    /* justify-content: center; */
-    /* background-color: aqua; */
+  height: 100%;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  /* justify-content: center; */
+  /* background-color: aqua; */
 }
 
 /*---------------------------- section categorty */
 .menu_s .drop_navbar {
-    visibility: hidden;
-    display: flex;
-    margin: auto;
-    justify-content: center;
-    width: 100vw;
-    max-width: 1250px;
-    height: 500px;
-    position: absolute;
-    z-index: 1;
-    line-height: 35px;
-    height: auto;
-    border-top: none;
-    box-shadow: 0px 15px 14px rgb(0 0 0 / 5%);
-    background-color: #FFFFFF;
-    padding: 16px 0px;
-    margin-left: -85px;
-    top: 62px
+  visibility: hidden;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 100vw;
+  max-width: 1250px;
+  height: 500px;
+  position: absolute;
+  z-index: 1;
+  line-height: 35px;
+  height: auto;
+  border-top: none;
+  box-shadow: 0px 15px 14px rgb(0 0 0 / 5%);
+  background-color: #ffffff;
+  padding: 16px 0px;
+  margin-left: -85px;
+  top: 62px;
 }
 
 /* ----------------------------section */
 
 .menu_s:hover .drop_navbar {
-
-    background-color: white;
-    visibility: visible;
-    opacity: 1;
-    z-index: 2;
-    transition-delay: 0.15s;
+  background-color: white;
+  visibility: visible;
+  opacity: 1;
+  z-index: 2;
+  transition-delay: 0.15s;
 }
 
 .drop_001 {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 .drop_01 {
-    width: 100%;
-    margin: auto;
-    padding: 0 20px;
-    max-width: 1276px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+  max-width: 1276px;
 }
 
 .colum_drop {
-    height: fit-content;
-    column-gap: 4%;
-    column-rule: 1px solid #ecedeb;
-    column-count: 6;
+  height: fit-content;
+  column-gap: 4%;
+  column-rule: 1px solid #ecedeb;
+  column-count: 6;
 }
 
 .colum_center {
-    column-count: 7;
+  column-count: 7;
 }
 
 /* .colum_center{
@@ -245,734 +247,758 @@ body {
     margin-left: 10px
 } */
 .list {
-    margin-left: 5%;
-    break-inside: avoid-column;
-    margin-bottom: 12%;
-    margin-right: 3%;
+  margin-left: 5%;
+  break-inside: avoid-column;
+  margin-bottom: 12%;
+  margin-right: 3%;
 }
 
-.list>ul li {
-    color: #5d5e5c;
-    font-size: 13px;
-    font-style: normal;
-    /* transition: ease-in 0.1s; */
-    font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: 400;
-    line-height: 18px;
-    margin-bottom: 2px;
-    list-style-type: none;
+.list > ul li {
+  color: #5d5e5c;
+  font-size: 13px;
+  font-style: normal;
+  /* transition: ease-in 0.1s; */
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 2px;
+  list-style-type: none;
 }
 
-.list>p:hover {
-    color: #303ab2;
-    cursor: pointer;
-    font-weight: 700;
+.list > p:hover {
+  color: #303ab2;
+  cursor: pointer;
+  font-weight: 700;
 }
 
-.list>ul li:hover {
-    color: #303ab2;
-    cursor: pointer;
-    font-weight: 700;
+.list > ul li:hover {
+  color: #303ab2;
+  cursor: pointer;
+  font-weight: 700;
 }
 
-.menu_s>a:hover {
-    color: #303ab2;
-    background-color: #FFFFFF;
+.menu_s > a:hover {
+  color: #303ab2;
+  background-color: #ffffff;
 }
 
-.nav_02>span:hover {
-    color: #303ab2;
-    font-weight: 500;
+.nav_02 > span:hover {
+  color: #303ab2;
+  font-weight: 500;
 }
 
-.list>p {
-
-
-    color: #000000;
-    font-size: 14px;
-    transition: ease-in 0.2s;
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: 600;
-    line-height: 20px;
+.list > p {
+  color: #000000;
+  font-size: 14px;
+  transition: ease-in 0.2s;
+  font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 600;
+  line-height: 20px;
 }
 
 .menu_s .drop_left_4 {
-    margin-left: -300px;
+  margin-left: -300px;
 }
 
 .menu_s .drop_left_3 {
-    margin-left: -230px;
+  margin-left: -230px;
 }
 
 .menu_s .drop_left_2 {
-    margin-left: -165px;
+  margin-left: -165px;
 }
 
 /* .menu_s .drop_left_1{
     margin-left: -300px;
 } */
 .category_sec {
-    color: #000000;
-    cursor: pointer;
-    height: 100%;
-    padding: 16px 16px;
-    font-size: 14px;
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: 520;
+  color: #000000;
+  cursor: pointer;
+  height: 100%;
+  padding: 16px 16px;
+  font-size: 14px;
+  font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 520;
 }
 
 .category_font {
-    width: 100%;
-    min-width: 64px;
-    box-shadow: none !important;
-    line-height: 1.75;
+  width: 100%;
+  min-width: 64px;
+  box-shadow: none !important;
+  line-height: 1.75;
 }
 
 .category_s {
-    display: inline-flex;
-    outline: 0;
-    position: relative;
-    align-items: center;
-    user-select: none;
-    vertical-align: middle;
-    justify-content: center;
-    text-decoration: none;
-    background-color: transparent;
-    -webkit-appearance: none;
-    -webkit-tap-highlight-color: transparent;
+  display: inline-flex;
+  outline: 0;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  vertical-align: middle;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .sect_cen {
-    width: 100%;
-    display: inherit;
-    align-items: inherit;
-    justify-content: inherit;
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
 }
 
-.nav_02>div>a {
-    text-decoration: none;
-    color: #000000;
+.nav_02 > div > a {
+  text-decoration: none;
+  color: #000000;
 }
 
-.nav_02>div>a:hover {
-    color: #303ab2;
+.nav_02 > div > a:hover {
+  color: #303ab2;
 }
 
 .search_s {
-    flex-grow: 1;
-    max-width: 480px;
-    margin-left: unset;
-    padding-left: 16px;
-    padding-right: 16px;
+  flex-grow: 1;
+  max-width: 480px;
+  margin-left: unset;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .position_re {
-    position: relative;
+  position: relative;
 }
 
 .search_sv {
-    width: 100%;
-    border: 1px solid #ECEDEB;
-    height: 40px;
-    display: flex;
-    box-shadow: none;
-    align-items: center;
-    border-radius: 2px;
-    background-color: #ecedeb;
+  width: 100%;
+  border: 1px solid #ecedeb;
+  height: 40px;
+  display: flex;
+  box-shadow: none;
+  align-items: center;
+  border-radius: 2px;
+  background-color: #ecedeb;
 }
 
 .search_logo_s {
-    width: 30px;
-    height: 24px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -310px -41px;
+  width: 30px;
+  height: 24px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -310px -41px;
 }
 
 .search_logo_g {
-    line-height: 1;
-    padding-left: 14px;
-    padding-right: 7px;
+  line-height: 1;
+  padding-left: 14px;
+  padding-right: 7px;
 }
 
 .search_flow {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .input_q {
-    width: 100%;
-    border: 0;
-    height: 30px;
-    outline: 0;
-    padding: 10px;
-    font-size: 16px;
-    font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    background-color: #ecedeb;
-    width: 100%;
+  width: 100%;
+  border: 0;
+  height: 30px;
+  outline: 0;
+  padding: 10px;
+  font-size: 16px;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  background-color: #ecedeb;
+  width: 100%;
 }
 
 .right_navbar {
-    height: 64px;
-    display: inline-flex;
-    align-items: center;
+  height: 64px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .more_nav {
-    top: 1px;
-    position: relative;
+  top: 1px;
+  position: relative;
 }
 
 .right_nav_s {
-    padding-left: 12px;
-    padding-right: 12px;
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .button_nav {
-    top: 2px;
-    position: relative;
-    flex: 0 0 auto;
-    color: rgba(0, 0, 0, 0.54);
-    padding: 12px;
-    overflow: visible;
-    font-size: 1.5rem;
-    text-align: center;
-    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    border-radius: 50%;
-    border: 0;
-    cursor: pointer;
-    margin: 0;
-    display: inline-flex;
-    outline: 0;
-    align-items: center;
-    user-select: none;
-    vertical-align: middle;
-    justify-content: center;
-    text-decoration: none;
-    background-color: transparent;
+  top: 2px;
+  position: relative;
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  padding: 12px;
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  outline: 0;
+  align-items: center;
+  user-select: none;
+  vertical-align: middle;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .nav_01 {
-    border-bottom: 2px solid transparent;
-    position: relative;
+  border-bottom: 2px solid transparent;
+  position: relative;
 }
 
 .nav_02 {
-    color: #000000;
-    padding: 11px 0px 15px 10px;
-    border: 0;
-    height: 100%;
-    font-size: 14px;
-    min-width: 1px;
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: 500;
-    justify-content: center;
-    background-color: transparent;
-    -webkit-appearance: none;
-    cursor: pointer;
-
+  color: #000000;
+  padding: 11px 0px 15px 10px;
+  border: 0;
+  height: 100%;
+  font-size: 14px;
+  min-width: 1px;
+  font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 500;
+  justify-content: center;
+  background-color: transparent;
+  -webkit-appearance: none;
+  cursor: pointer;
 }
 
 .nav_03 {
-    width: 100%;
-    display: flex;
-    align-items: inherit;
-    justify-content: inherit;
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
 }
 
 .nav_04 {
-    padding-top: 4px;
-    padding-right: 10px;
+  padding-top: 4px;
+  padding-right: 10px;
 }
 
 .nav_05 {
-    padding: 16px 4px;
-    font-size: 14px;
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  padding: 16px 4px;
+  font-size: 14px;
+  font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
 }
 
 .nav_06 {
-    width: 24px;
-    height: 24px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -604px -155px no-repeat;
+  width: 24px;
+  height: 24px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -604px -155px
+    no-repeat;
 }
 
 .baket_s {
-    position: relative;
-    max-width: 48px;
-    padding-left: 6px;
+  position: relative;
+  max-width: 48px;
+  padding-left: 6px;
 }
 
 .nav_07 {
-    top: 2px;
-    color: #000000;
-    right: 15px;
-    padding: 16px 14px 16px 16px;
-    position: relative;
-    font-size: 14px;
-    font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: normal;
-    text-transform: capitalize;
-    min-width: 64px;
-    border: 0;
-    cursor: pointer;
-    display: inline-flex;
-    justify-content: center;
-    background-color: transparent;
+  top: 2px;
+  color: #000000;
+  right: 15px;
+  padding: 16px 14px 16px 16px;
+  position: relative;
+  font-size: 14px;
+  font-family: ProximaNova-Semibold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: normal;
+  text-transform: capitalize;
+  min-width: 64px;
+  border: 0;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  background-color: transparent;
 }
 
 .nav_08 {
-    width: 24px;
-    height: 24px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -640px -155px no-repeat;
+  width: 24px;
+  height: 24px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -640px -155px
+    no-repeat;
 }
 
-.nav_08>a {
-    width: 24px;
-    height: 24px;
-    color: transparent;
-    text-decoration: none;
+.nav_08 > a {
+  width: 24px;
+  height: 24px;
+  color: transparent;
+  text-decoration: none;
 }
 
-@media (min-width:320px) and (max-width:720px) {
-    .center_s {
-        width: 100%;
-        margin: auto;
-        padding: 0px 20px;
-        max-width: 600px;
-    }
+/* cart Quantity number added */
+.baket_s {
+  position: relative;
+}
+#cartQuantity {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  padding: 3px 7px;
+  background-color: #303ab2;
+  color: #ffffff;
+  border-radius: 50%;
+}
+@media (min-width: 320px) and (max-width: 720px) {
+  .center_s {
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px;
+    max-width: 600px;
+  }
 }
 
-@media (min-width:721px) and (max-width:1200px) {
-    .center_s {
-        width: 100%;
-        margin: auto;
-        padding: 0px 20px;
-        max-width: 1000px;
-    }
+@media (min-width: 721px) and (max-width: 1200px) {
+  .center_s {
+    width: 100%;
+    margin: auto;
+    padding: 0px 20px;
+    max-width: 1000px;
+  }
 }
 
 /* ----------------------- footer -----------------------------------------*/
 
 .footer_01 {
-    display: grid;
-    justify-content: center;
-    width: 100%;
-    margin: auto;
-    border-top: 1px solid rgb(236, 237, 235);
-    margin-top: -1px;
-    padding-top: 50px;
-    border-right-color: rgb(236, 237, 235);
-    border-bottom-color: rgb(236, 237, 235);
-    border-left-color: rgb(236, 237, 235);
-    padding-bottom: 30px;
-    background-color: rgb(255, 255, 255);
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  border-top: 1px solid rgb(236, 237, 235);
+  margin-top: -1px;
+  padding-top: 50px;
+  border-right-color: rgb(236, 237, 235);
+  border-bottom-color: rgb(236, 237, 235);
+  border-left-color: rgb(236, 237, 235);
+  padding-bottom: 30px;
+  background-color: rgb(255, 255, 255);
 }
 
 .footer_001 {
-    width: 100%;
-    margin: auto;
-    padding: 0 20px;
-    max-width: 1276px;
+  width: 100%;
+  margin: auto;
+  padding: 0 20px;
+  max-width: 1276px;
 }
 
 .footer_subscribe {
-    padding-bottom: 48px;
+  padding-bottom: 48px;
 }
 
 .footer_subscribe_cen {
-    width: 1236px;
-    display: flex;
+  width: 1236px;
+  display: flex;
 }
 
 .fot_cen_left {
-    width: 59%;
+  width: 59%;
 }
 
 .fot_cen_right {
-    width: 41%;
+  width: 41%;
 }
 
 .fot_cen_left_01 {
-    color: rgb(33, 33, 33);
+  color: rgb(33, 33, 33);
 }
 
 .fot_cen_left_02 {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .fot_cen_left_03 {
-    width: 504px;
-    padding-top: 33px;
+  width: 504px;
+  padding-top: 33px;
 }
 
 .footer_text {
-    font-size: 24px;
-    font-family: ProximaNova-Bold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: normal;
-    line-height: 1.235;
-    margin: 0;
+  font-size: 24px;
+  font-family: ProximaNova-Bold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: normal;
+  line-height: 1.235;
+  margin: 0;
 }
 
 .footer_p_01 {
-    color: #929391;
-    font-size: 16px;
-    font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: 400;
-    line-height: 1.5;
-    margin: 0;
+  color: #929391;
+  font-size: 16px;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 400;
+  line-height: 1.5;
+  margin: 0;
 }
 
 .Search_subcribe {
-    display: flex;
-    justify-content: space-between;
-    height: 56px;
+  display: flex;
+  justify-content: space-between;
+  height: 56px;
 }
 
 .fot_cen_left_03_01 {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 .fot_cen_left_03_02 {
-    position: relative;
+  position: relative;
 }
 
-@media all and (max-width:599.6px) {
-    .fot_cen_left_03_03 {
-        height: 50px;
-        padding: 16px;
-        font-size: 14px;
-        border-top-left-radius: 2px;
-        border-bottom-left-radius: 2px;
-    }
+@media all and (max-width: 599.6px) {
+  .fot_cen_left_03_03 {
+    height: 50px;
+    padding: 16px;
+    font-size: 14px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+  }
 }
 
 @media all and (min-width: 600px) {
-    .fot_cen_left_03_03 {
-        height: 56px;
-        padding: 18px 24px;
-        font-size: 16px;
-        border-top-left-radius: 4px;
-        border-bottom-left-radius: 4px;
-    }
+  .fot_cen_left_03_03 {
+    height: 56px;
+    padding: 18px 24px;
+    font-size: 16px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
 }
 
 .fot_cen_left_03_03 {
-    color: #929391;
-    width: 100%;
-    border: none;
-    display: block;
-    outline: none;
-    line-height: 1.5;
-    border-radius: 0px;
-    background-color: #F7F8F7;
+  color: #929391;
+  width: 100%;
+  border: none;
+  display: block;
+  outline: none;
+  line-height: 1.5;
+  border-radius: 0px;
+  background-color: #f7f8f7;
 }
 
 .footer_button {
-    width: 179px;
-    height: 56px;
-    font-size: 18px;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
-    color: #FFFFFF;
-    box-shadow: none;
-    border-radius: 0px;
-    text-transform: capitalize;
-    background-color: #000000;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
+  width: 179px;
+  height: 56px;
+  font-size: 18px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  color: #ffffff;
+  box-shadow: none;
+  border-radius: 0px;
+  text-transform: capitalize;
+  background-color: #000000;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer_subscribe_btn {
-    width: 100%;
-    display: inherit;
-    align-items: inherit;
-    justify-content: inherit;
-    color: #FFFFFF;
-    box-shadow: none;
-    border-radius: 0px;
-    text-transform: capitalize;
-    background-color: #000000;
-    font-size: 18px;
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
+  color: #ffffff;
+  box-shadow: none;
+  border-radius: 0px;
+  text-transform: capitalize;
+  background-color: #000000;
+  font-size: 18px;
 }
 
 .footer_logo_01 {
-    display: flex;
-    padding-top: 33px;
+  display: flex;
+  padding-top: 33px;
 }
 
 .apply_logo {
-    padding: 0;
-    flex: 0 0 auto;
-    color: rgba(0, 0, 0, 0.54);
-    overflow: visible;
-    font-size: 1.5rem;
-    text-align: center;
-    transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    border-radius: 50%;
-    border: 0;
-    cursor: pointer;
-    position: relative;
-    align-items: center;
-    user-select: none;
+  padding: 0;
+  flex: 0 0 auto;
+  color: rgba(0, 0, 0, 0.54);
+  overflow: visible;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: background-color 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  user-select: none;
 }
 
 .apply_logo_01 {
-    width: 100%;
-    display: flex;
-    align-items: inherit;
-    justify-content: inherit;
-    color: rgba(0, 0, 0, 0.54);
-    font-size: 1.5rem;
-    text-align: center;
-    user-select: none;
-    cursor: pointer;
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 1.5rem;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
 }
 
 .apply_logo_02 {
-    height: 56px;
-    min-width: 152px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -420px -25px;
+  height: 56px;
+  min-width: 152px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -420px -25px;
 }
 
 .google_logo {
-    padding-left: 32px;
+  padding-left: 32px;
 }
 
 .playstore_logo_s {
-    height: 56px;
-    min-width: 172px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -594px -25px;
+  height: 56px;
+  min-width: 172px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -594px -25px;
 }
 
 .footer_category {
-    border-top: 1px solid rgb(236, 237, 235);
-    padding-top: 48px;
-    border-right-color: rgb(236, 237, 235);
-    border-bottom-color: rgb(236, 237, 235);
-    border-left-color: rgb(236, 237, 235);
-    padding-bottom: 40px;
+  border-top: 1px solid rgb(236, 237, 235);
+  padding-top: 48px;
+  border-right-color: rgb(236, 237, 235);
+  border-bottom-color: rgb(236, 237, 235);
+  border-left-color: rgb(236, 237, 235);
+  padding-bottom: 40px;
 }
 
 .footer_02 {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 
 .footel_002 {
-    padding: 20px;
+  padding: 20px;
 }
 
 .footel_003 {
-    width: 20%;
-    margin: 0;
-    box-sizing: border-box;
+  width: 20%;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .footer_category_text {
-    font-family: ProximaNova-Bold, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-size: 16px;
-    line-height: 1.6;
-    margin: 0;
-    box-sizing: inherit;
-    display: block;
-    font-weight: 600;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+  font-family: ProximaNova-Bold, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  box-sizing: inherit;
+  display: block;
+  font-weight: 600;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 }
 
 .footer_004 {
-    line-height: 1.75;
-    padding-top: 4px;
-    list-style-type: none;
-    font-size: 14px;
-    font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: 400;
+  line-height: 1.75;
+  padding-top: 4px;
+  list-style-type: none;
+  font-size: 14px;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 400;
 }
 
 .footer_005 {
-    color: #5d5e5c;
-    text-decoration: none;
+  color: #5d5e5c;
+  text-decoration: none;
 }
 
 .footer_contact {
-    border-top: 1px solid rgb(236, 237, 235);
-    padding-top: 18px;
-    border-right-color: rgb(236, 237, 235);
-    border-bottom-color: rgb(236, 237, 235);
-    border-left-color: rgb(236, 237, 235);
-    padding-bottom: 18px;
+  border-top: 1px solid rgb(236, 237, 235);
+  padding-top: 18px;
+  border-right-color: rgb(236, 237, 235);
+  border-bottom-color: rgb(236, 237, 235);
+  border-left-color: rgb(236, 237, 235);
+  padding-bottom: 18px;
 }
 
 .footer_con_01 {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: solid red; */
 }
 
 .footer_con_02 {
-    margin-left: -28px;
-    margin-right: -28px;
+  margin-left: -28px;
+  margin-right: -28px;
 }
 
 .footer_con_03 {
-    display: inline-flex;
-    align-items: center;
-    margin-left: -3px;
-    margin-right: -12px;
+  display: inline-flex;
+  align-items: center;
+  margin-left: -3px;
+  margin-right: -12px;
 }
 
 .footer_con_02_1 {
-    display: inline-flex;
-    font-size: 16px;
-    align-items: center;
-    padding-left: 28px;
-    padding-right: 28px;
+  display: inline-flex;
+  font-size: 16px;
+  align-items: center;
+  padding-left: 28px;
+  padding-right: 28px;
 }
 
 .footer_text_con {
-    font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: normal;
-    text-transform: none;
-    background-color: transparent;
-    padding: 6px 8px;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: normal;
+  text-transform: none;
+  background-color: transparent;
+  padding: 6px 8px;
 }
 
 .a_line {
-    color: inherit;
-    border: 0;
-    cursor: pointer;
-    margin: 0;
-    display: inline-flex;
-    align-items: center;
-    text-decoration: none;
+  color: inherit;
+  border: 0;
+  cursor: pointer;
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 .footer_text_01 {
-    width: 100%;
-    display: inherit;
-    align-items: inherit;
-    justify-content: inherit;
+  width: 100%;
+  display: inherit;
+  align-items: inherit;
+  justify-content: inherit;
 }
 
 .footer_text_02 {
-    width: 48px;
-    border: 1px solid #c8c9c6;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    border-radius: 50%;
-    justify-content: center;
+  width: 48px;
+  border: 1px solid #c8c9c6;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
 }
 
 .footer_text_03 {
-    width: 24px;
-    height: 24px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -270px -104px;
+  width: 24px;
+  height: 24px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -270px -104px;
 }
 
 .footer_text_04 {
-    text-align: left;
-    line-height: 1.43;
-    padding-left: 12px;
+  text-align: left;
+  line-height: 1.43;
+  padding-left: 12px;
 }
 
 .footer_text_05 {
-    color: rgb(146, 147, 145);
+  color: rgb(146, 147, 145);
 }
 
 .footer_text_06 {
-    width: 24px;
-    height: 24px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -311px -103px;
+  width: 24px;
+  height: 24px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -311px -103px;
 }
 
 .footer_text_07 {
-    width: 24px;
-    height: 24px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -351px -104px;
+  width: 24px;
+  height: 24px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -351px -104px;
 }
 
 .footer_text_08 {
-    padding: 12px;
-    display: inline-flex;
-    position: relative;
-    justify-content: center;
-    text-decoration: none;
-    background-color: transparent;
+  padding: 12px;
+  display: inline-flex;
+  position: relative;
+  justify-content: center;
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .footer_text_09 {
-    width: 100%;
-    display: flex;
-    align-items: inherit;
-    justify-content: inherit;
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
 }
 
 .footer_logo_10 {
-    width: 24px;
-    height: 24px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -390px -104px;
+  width: 24px;
+  height: 24px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -390px -104px;
 }
 
 .footer_logo_11 {
-    width: 24px;
-    height: 24px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -432px -104px;
+  width: 24px;
+  height: 24px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -432px -104px;
 }
 
 .footer_logo_12 {
-    width: 24px;
-    height: 24px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -472px -104px;
+  width: 24px;
+  height: 24px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -472px -104px;
 }
 
 .footerlogo_con {
-    border-top: 1px solid rgb(236, 237, 235);
-    padding-top: 24px;
+  border-top: 1px solid rgb(236, 237, 235);
+  padding-top: 24px;
 }
 
 .footerlogo_con01 {
-    display: flex;
-    margin: -6px -8px;
-    /* justify-content: space-between; */
-    box-sizing: inherit;
+  display: flex;
+  margin: -6px -8px;
+  /* justify-content: space-between; */
+  box-sizing: inherit;
 }
 
 .footerlogo_02 {
-    padding: 12px;
-    display: inline-flex;
-    position: relative;
-    align-items: center;
-    user-select: none;
-    text-decoration: none;
-
+  padding: 12px;
+  display: inline-flex;
+  position: relative;
+  align-items: center;
+  user-select: none;
+  text-decoration: none;
 }
 
 .footerlogo_03 {
-    width: 100%;
-    display: flex;
-    align-items: inherit;
-    justify-content: inherit;
-    width: 95px;
-    height: 24px;
-    background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -176px -106px;
+  width: 100%;
+  display: flex;
+  align-items: inherit;
+  justify-content: inherit;
+  width: 95px;
+  height: 24px;
+  background: url(https://i1.lmsin.net/website_images/static-pages/brand_exp/brand2images/prod/Sprite_icons.svg) -176px -106px;
 }
 
 .footerlogo_04 {
-    color: rgb(146, 147, 145);
-    padding-left: 16px;
+  color: rgb(146, 147, 145);
+  padding-left: 16px;
 }
 
 .footerlogo_04 div {
-    font-size: 13px;
-    font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-    font-weight: 400;
-    line-height: 1.43;
+  font-size: 13px;
+  font-family: ProximaNova-Regular, "Helvetica Neue", Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  font-weight: 400;
+  line-height: 1.43;
 }
 
 .footerlogo_05 {
-    color: #929391;
-    text-decoration: none;
+  color: #929391;
+  text-decoration: none;
 }
