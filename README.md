@@ -33,21 +33,26 @@
 
 ## **Home Page**
 *This is Landing page of our website*
-![Screenshot](https://www.linkpicture.com)
+![Screenshot](https://i.postimg.cc/25hPSRNy/catehome.png)
+
 
 ## **SignUp Page** 
 *SignUp to register with our website*
 *All details of the users will be stored in the local storage.*
-![Screenshot](https://i.postimg.cc)
+![Screenshot](https://i.postimg.cc/fbFqvC4G/signup.png)
 
 
 ## **Login Page** 
 *In order to continue shopping login with user details*
-![Screenshot](https://www.linkpicture.com)
-
+![Screenshot](https://i.postimg.cc/nL7B6G9b/signin.png)
+<!-- [![signin.png](https://i.postimg.cc/nL7B6G9b/signin.png)](https://postimg.cc/HJYrM5tB) -->
 ## **Product Page** 
 *User can select from variety of products and can filter or sort accordingly*
-![Screenshot](https://www.linkpicture)
+> Women
+![Screenshot](https://i.postimg.cc/ZRXrgsVS/product1.png)
+
+> Men
+![Screenshot](https://i.postimg.cc/rprW4NqZ/product2.png)
 
 ## **Cart Page and Checkout Page**
 *User can increase or decrease the quantity of products*
