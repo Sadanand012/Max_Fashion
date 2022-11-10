@@ -44,8 +44,9 @@
 
 ## **Login Page** 
 *In order to continue shopping login with user details*
-![Screenshot](https://i.postimg.cc/nL7B6G9b/signin.png)
-<!-- [![signin.png](https://i.postimg.cc/nL7B6G9b/signin.png)](https://postimg.cc/HJYrM5tB) -->
+![Screenshot](https://i.postimg.cc/B6QzN502/signin.png)
+
+
 ## **Product Page** 
 *User can select from variety of products and can filter or sort accordingly*
 > Women
@@ -56,13 +57,13 @@
 
 ## **Cart Page and Checkout Page**
 *User can increase or decrease the quantity of products*
-![Screenshot](https://www.linkpicture)
+![Screenshot](https://i.postimg.cc/yY8P2rqg/cartpage.png)
 
 
 ## **Payment's Page**
 *To place order enter with card details *
 <!-- [Card No - 1234567812345678] and [OTP - 1234] -->
-![Screenshot](https://www.linkpicture.com)
+![Screenshot](https://i.postimg.cc/MG05CnDt/payment.png)
 
 # Contributors
 
