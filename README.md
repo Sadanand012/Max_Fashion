@@ -44,11 +44,8 @@
 
 ## **Login Page** 
 *In order to continue shopping login with user details*
-<<<<<<< HEAD
-![Screenshot](https://i.postimg.cc/nL7B6G9b/signin.png)
 =======
 ![Screenshot](https://i.postimg.cc/B6QzN502/signin.png)
->>>>>>> 5131572fb05900e719a3fc9199344c528f249d41
 
 
 ## **Product Page** 
@@ -67,11 +64,7 @@
 ## **Payment's Page**
 *To place order enter with card details *
 <!-- [Card No - 1234567812345678] and [OTP - 1234] -->
-<<<<<<< HEAD
 ![Screenshot](https://www.linkpicture.com)
-=======
-![Screenshot](https://i.postimg.cc/MG05CnDt/payment.png)
->>>>>>> 5131572fb05900e719a3fc9199344c528f249d41
 
 # Contributors
 
