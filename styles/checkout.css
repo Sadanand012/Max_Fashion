@@ -2,6 +2,10 @@
 body{
     background-color: white;
 }
+
+.search_flow{
+    display: none;
+}
 #div4,#skm1,#skm3{
     display: flex;
     margin-left: 10px;
