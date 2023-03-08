@@ -105,14 +105,41 @@
   margin-top: 10px;
 }
 .productDiv {
-  position: relative;
 
-  z-index: auto;
+  background-color: #fff;
+  
+  /* Required for absolute positioning of child elements */
+  /* overflow: hidden; /* Hide any overflow from transformed child element */
+  /* transition: all 0.3s ease-in-out;*/
+  z-index: auto;  
 }
+
+
+.productDiv:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transform: scale(1.08);
+  padding: 15px;
+  z-index: 20;  
+
+}
+
+
+.productDiv:hover .leftArrow,
+.productDiv:hover .rightArrow,
+.productDiv:hover .disableBox {
+  display: block;
+  
+}
+
 .product {
   display: block;
-  position: relative;
+ 
   overflow: hidden;
+}
+
+.imageDiv{
+  display: block;
+  position: relative;
 }
 .product img {
   width: 100%;
@@ -140,11 +167,12 @@
   display: inline-flex;
   cursor: pointer;
 }
+
 .leftArrow {
   display: none;
   position: absolute;
-  left: 1em;
-  top: 125px;
+  left: 20px;
+  top: 45%;
 
   z-index: 11;
 }
@@ -157,18 +185,18 @@
 .rightArrow {
   display: none;
   position: absolute;
-  right: 1rem;
+  right: 20px;
+  top: 45%;
 
-  top: 120px;
 
   z-index: 11;
 }
 
 .newTitleDiv {
   position: absolute;
-  left: 1rem;
+  left: 10px;
 
-  top: 14rem;
+  top:75%;
   padding: 0.5em 1em;
   border-radius: 2px;
 
@@ -179,8 +207,9 @@
 }
 .onlineDiv {
   position: absolute;
-  right: 1rem;
-  top: 14rem;
+  right: 10px;
+
+  top:75%;
   padding: 0.5em 1em;
   border-radius: 2px;
   background-color: white;
