@@ -135,6 +135,9 @@ export let Display = (data) => {
       slide(images,sliderDiv)
     });
     rightArrow.addEventListener("mouseleave", function () {
+      if(id){
+        clearInterval(id)
+      }
     id = setInterval(function () {
         slide(images,sliderDiv)
        }, 1800);

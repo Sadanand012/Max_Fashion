@@ -9,49 +9,56 @@
   margin: auto;
   padding: 20px;
 }
-#operationFuncDiv {
-  display: flex;
+#filter_container {
+  
 
   width: 80%;
-  justify-content: space-evenly;
+
   background-color: rgba(232, 229, 225, 0.792);
   margin: auto;
   padding: 30px;
 }
-#operationFuncDiv img {
+#filter_container img {
   width: 15px;
 }
-#sizeFuncDiv,
-#colourFuncDiv,
-#extraFuncDiv {
-  background-color: white;
-  border: 0.3px solid gray;
-  position: relative;
+
+.filterBoxs {
+  display: flex;
+  justify-content: space-evenly;
+ 
+ 
+ 
   cursor: pointer;
 }
-.sizeFuncBtn,
-.colorFuncBtn {
+.filterDiv{
+
+  position: relative;
+}
+.filterBtn{
+  background-color: white;
+  border: 0.3px solid gray;
   display: flex;
   justify-content: space-between;
-  width: 150px;
+  width: 220px;
   /* border: 1px solid red; */
   color: rgb(185, 153, 153);
   font-weight: 500;
   padding: 10px;
   /* font-size: 20px; */
 }
-.sizeFuncRes {
+.filterContent {
+ padding: 5px 2px;
   display: none;
   position: absolute;
-  width: 140%;
+  width: 100%;
   border: 0.2px solid gray;
   left: 0px;
-  top: 50px;
+  top: 45px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: aliceblue;
   z-index: 50;
 }
-.colorFuncRes {
+/* .colorFuncRes {
   display: none;
   position: absolute;
   width: 140%;
@@ -72,21 +79,50 @@
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-color: aliceblue;
   z-index: 50;
+} */
+.filterContent> div {
+  
+  padding: 5px 10px;
+  display: grid;
+  grid-template-columns: 20px auto 30px;
+  align-items: center;
+  gap: 10px;
+  font-size: 16px;
 }
-.sizeFuncRes > p,
-.colorFuncRes > p {
-  margin: 5px 10px;
-  padding: 5px;
-}
-.colorFuncRes > p:hover {
+
+.filterContent > div:hover {
   background-color: bisque;
 }
-.sizeFuncRes > p:hover {
+
+/* .sizeFuncRes > p:hover {
   background-color: bisque;
 }
-.sizeFuncRes > p > span,
-.colorFuncRes > p > span {
-  font-size: 12px;
+.sizeFuncRes > p > span, */
+.filterContent> div >input{
+  display: block;
+  width: 20px;
+  height: 20px;
+/* margin: 0.2em;
+cursor: pointer;
+padding: 0.2em; */
+}
+.filterContent> div >input::after{
+  content: "\2714";
+ 
+  border-radius: 0.2em;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  padding: 0px 4px 9px 5px;
+  color: transparent;
+  
+}
+.filterContent> div >input:checked::after{
+  background-color: rgb(80, 114, 218);
+  color: #fff;
+}
+.filterContent > div > p:last-child {
+  font-size: 14px;
   color: gray;
   margin-left: 2px;
 }
